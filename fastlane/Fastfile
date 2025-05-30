@@ -1,0 +1,81 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+
+  desc "Push a dev build to Testflight"
+  lane :development do |option|
+    increment_build_number(xcodeproj: "KonoSummit.xcodeproj", skip_info_plist: true)
+    version_num = get_version_number(xcodeproj: "KonoSummit.xcodeproj", target: ENV["SCHEME"])
+    build_num = '100' + get_build_number(xcodeproj: "KonoSummit.xcodeproj")
+    build_app(workspace: "KonoSummit.xcworkspace", scheme: ENV["SCHEME"], configuration: "Debug")
+    upload_to_testflight(skip_submission: true)
+    slack(
+        message: "[DEV] App succesfully uploaded to TestFlight",
+        success: true,
+        slack_url: "https://hooks.slack.com/services/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",
+        default_payloads: [:git_branch, :last_git_commit_message],
+        attachment_properties: {
+            fields: [
+                {
+                    title: "Server Environment",
+                    value: ENV["SERVER"]
+                },
+                {
+                    title: "Version number",
+                    value: version_num
+                },
+                {
+                    title: "Build number",
+                    value: build_num
+                }
+            ]
+        }
+     )
+  end
+
+  desc "Push a release build to Testflight"
+  lane :release do |option|
+    increment_build_number(xcodeproj: "KonoSummit.xcodeproj", skip_info_plist: true)
+    version_num = get_version_number(xcodeproj: "KonoSummit.xcodeproj", target: ENV["SCHEME"])
+    build_num = '300' + get_build_number(xcodeproj: "KonoSummit.xcodeproj")
+    build_app(workspace: "KonoSummit.xcworkspace", scheme: ENV["SCHEME"], configuration: "Release")
+    upload_to_testflight(skip_submission: true)
+    slack(
+        message: "App succesfully uploaded to TestFlight",
+        success: true,
+        slack_url: "https://hooks.slack.com/services/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",
+        default_payloads: [:git_branch, :last_git_commit_message],
+        attachment_properties: {
+            fields: [
+                {
+                    title: "Server Environment",
+                    value: ENV["SERVER"]
+                },
+                {
+                    title: "Version number",
+                    value: version_num
+                },
+                {
+                    title: "Build number",
+                    value: build_num
+                }
+            ]
+        }
+     )
+  end
+end

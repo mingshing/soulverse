@@ -1,0 +1,57 @@
+//
+//  HomeViewPresenter.swift
+//  KonoSummit
+//
+//  Created by mingshing on 2021/8/15.
+//
+
+import Firebase
+
+struct LatestSectionBookConfig: Codable {
+    let bookIds: [String]
+}
+
+
+class HomeViewPresenter: HomeViewPresenterType {
+    
+    weak var delegate: HomeViewPresenterDelegate?
+    private var loadedModel: HomeViewModel = HomeViewModel(isLoading: false) {
+        didSet {
+            delegate?.didUpdate(viewModel: loadedModel)
+        }
+    }
+    private var isFetchingData: Bool = false
+    
+    private var isWaitingRemoteConfig = false
+    private var dataAccessQueue = DispatchQueue.init(label: "home_data",attributes: .concurrent)
+    
+    private var user: User
+    
+    init(user: User = User.instance) {
+        self.user = user
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(userIdentityChange), name: NSNotification.Name(rawValue: Notification.UserIdentityChange), object: nil)
+    }
+    
+    public func fetchData(isUpdate: Bool = false) {
+        
+        if isFetchingData {
+            return
+        }
+        
+        // Fetch data, then update the view
+        if !isUpdate {
+            loadedModel.isLoading = true
+        }
+        isFetchingData = true
+    }
+    
+    @objc private func userIdentityChange() {}
+    
+    //MARK: - tableview delegate/ data source related
+    
+    public func numberOfSectionsOnTableView() -> Int {
+        
+        return 0
+    }
+}

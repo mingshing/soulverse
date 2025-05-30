@@ -1,0 +1,35 @@
+{
+  "notifications": [
+    {
+      "notificationId": "620be868f4bc37f0632dea50",
+      "title": "新書上架",
+      "body": "The Infinite Game by Simon Sinek",
+      "image": "https://storage.googleapis.com/kps_dev_public/projects/61398d3c62cbe46b8b9e58af/users/61134822e9db342e20967f3d/contents/61f0e1c44cb99ac0acb4436d/resources/61f0e7194cb99ac0acb44387/320.jpeg",
+      "status": 0,
+      "type": "book",
+      "payload": {},
+      "createdAt": 1645036637
+    },
+    {
+      "notificationId": "620be868f4bc37f0632dea50",
+      "title": "新書上架",
+      "body": "<i>Creative Careers: Making a Living with Your Ideas by B. Jeffrey Madoff</i>",
+      "image": "https://storage.googleapis.com/kps_dev_public/projects/61398d3c62cbe46b8b9e58af/users/61134822e9db342e20967f3d/contents/61f0e1c44cb99ac0acb4436d/resources/61f0e7194cb99ac0acb44387/320.jpeg",
+      "status": 0,
+      "type": "book",
+      "payload": {},
+      "createdAt": 1643999837
+    },
+    {
+      "notificationId": "620ba589f4bc37f0632dea4e",
+      "title": "新書上架",
+      "body": "The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race by Walter Isaacson",
+      "image": "https://storage.googleapis.com/kps_dev_public/projects/61398d3c62cbe46b8b9e58af/users/61134822e9db342e20967f3d/contents/61f0e1c44cb99ac0acb4436d/resources/61f0e7194cb99ac0acb44387/320.jpeg",
+      "status": 1,
+      "type": "book",
+      "payload": {},
+      "createdAt": 1642963037
+    }
+  ],
+  "unreadCount": 3
+}
