@@ -34,17 +34,17 @@ abstract_target 'Base' do
   pod 'Popover'
   pod 'KeychainAccess'
   
-  target 'Sample'
-  target 'Sample Dev'
+  target 'Soulverse'
+  target 'Soulverse Dev'
   
-  target 'SampleTests' do
+  target 'SoulverseTests' do
     inherit! :search_paths
     # Pods for testing
     pod 'Firebase'
     pod 'GoogleUtilities'
   end
 
-  target 'SampleUITests' do
+  target 'SoulverseUITests' do
     # Pods for testing
   end
 

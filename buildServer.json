@@ -10,10 +10,10 @@
 		"swift"
 	],
 	"argv": [
-		"/usr/local/bin/xcode-build-server"
+		"/opt/homebrew/bin/xcode-build-server"
 	],
-	"workspace": "/Users/kuokuo/AppTemplate/Sample.xcworkspace",
-	"build_root": "/Users/kuokuo/Library/Developer/Xcode/DerivedData/Sample-dvkhqnmgyblolqasyyiqizplvfui",
-	"scheme": "Sample",
+	"workspace": "/Users/mingshing/Soulverse/Soulverse.xcworkspace",
+	"build_root": "/Users/mingshing/Library/Developer/Xcode/DerivedData/Soulverse-cssewnfzulirbkhjqbykfkvgudus",
+	"scheme": "Soulverse",
 	"kind": "xcode"
 }
