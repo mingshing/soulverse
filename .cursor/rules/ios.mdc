@@ -1,5 +1,98 @@
 ---
-description:
-globs:
+description: The rules is helping for development a new feature
+globs: 
 alwaysApply: false
 ---
+# Cursor AI iOS Development Rules
+
+## Core Principles
+
+- ALWAYS propose approach before coding - explain architecture, files, strategy
+- Write clean, documented Swift code following naming conventions
+- Use dependency injection and protocols for testability
+- Handle errors comprehensively with Result types
+
+## Architecture: VIPER-Inspired + Single Router
+
+### Structure
+```
+Features/
+  FeatureName/
+    Presenter/ - View coordination, presentation logic
+    Views/ - UI only (UIKit/SwiftUI)
+    ViewModels/ - Business logic, no framework imports
+Router/ - Single navigation manager
+```
+
+### Data Flow
+```
+View ↔ Presenter ↔ ViewModel ↔ Services
+                ↓
+            Router
+```
+
+### Component Rules
+
+**View**: UI rendering only, communicate via protocols
+
+**Presenter**: Mediate View↔ViewModel, handle lifecycle, format data
+
+**ViewModel**: Pure business logic, framework-agnostic, return processed data
+
+**Router**: Handle all navigation, transitions, deep linking
+
+## UIKit vs SwiftUI
+
+**UIKit**: Complex animations, custom drawing, legacy integration, performance-critical
+
+**SwiftUI**: Standard components, data binding, modern features, rapid development
+
+Use UIViewRepresentable/UIHostingController for integration
+
+
+## Animations
+
+- SwiftUI: Prefer implicit animations, use withAnimation for control
+- UIKit: UIView.animate for simple, CAAnimation for complex
+- Test performance on older devices, limit simultaneous animations
+
+## Testing
+
+- Unit test Presenters and ViewModels with mocks
+- Test protocols and navigation logic
+- UI test critical flows and accessibility
+- Target 80% coverage on business logic
+
+## Performance
+
+- Lazy load resources, background queues for heavy work
+- SwiftUI: Use @StateObject correctly, LazyVStack for lists
+- UIKit: Reuse cells, efficient auto layout
+- Profile with Instruments regularly
+
+## Security
+
+- Keychain for credentials, SSL pinning, validate inputs
+- Obfuscate API keys, proper access controls
+
+## Before Implementation
+
+Provide:
+
+1. Architecture overview and component breakdown
+2. File structure in feature folder
+3. Router integration plan
+4. UIKit/SwiftUI choice reasoning
+5. Dependencies needed
+6. Testing strategy
+
+## Code Checklist
+
+- VIPER architecture implemented correctly
+- Presenter coordinates, no business logic in Views
+- ViewModels framework-agnostic
+- Router handles navigation
+- Protocol-based communication
+- Memory leak prevention (weak/unowned)
+- Comprehensive error handling
+- Performance optimized

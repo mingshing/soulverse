@@ -30,29 +30,18 @@ class HomeViewController: ViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        title = NSLocalizedString("Home", comment: "")
         setupView()
         setupPresenter()
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.setNavigationBarHidden(false, animated: true)
-        if #available(iOS 18.0, *) {
-            self.tabBarController?.setTabBarHidden(false, animated: false)
-        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        if #available(iOS 18.0, *) {
-            if isCurrentTabRootVC {
-                self.tabBarController?.setTabBarHidden(true, animated: false)
-            }
-        }
     }
     
     func setupView() {
-        navigationController?.navigationBar.prefersLargeTitles = true
         view.addSubview(tableView)
         tableView.snp.makeConstraints { make in
             make.left.right.top.bottom.equalToSuperview()

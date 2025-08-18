@@ -71,7 +71,6 @@
 		790AD24E2DF9E43200C33CD1 /* BugTrackingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1DC2DF9E43200C33CD1 /* BugTrackingEvent.swift */; };
 		790AD24F2DF9E43200C33CD1 /* AppleUserAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1EC2DF9E43200C33CD1 /* AppleUserAuthService.swift */; };
 		790AD2502DF9E43200C33CD1 /* UISwitch+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1712DF9E43200C33CD1 /* UISwitch+Extensions.swift */; };
-		790AD2512DF9E43200C33CD1 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD16F2DF9E43200C33CD1 /* UIFont+Extensions.swift */; };
 		790AD2522DF9E43200C33CD1 /* TrackingServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1E12DF9E43200C33CD1 /* TrackingServiceType.swift */; };
 		790AD2532DF9E43200C33CD1 /* UITabBarController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1722DF9E43200C33CD1 /* UITabBarController+Extensions.swift */; };
 		790AD2542DF9E43200C33CD1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1E72DF9E43200C33CD1 /* User.swift */; };
@@ -171,7 +170,6 @@
 		790AD2FC2DF9E43200C33CD1 /* BugTrackingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1DC2DF9E43200C33CD1 /* BugTrackingEvent.swift */; };
 		790AD2FD2DF9E43200C33CD1 /* AppleUserAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1EC2DF9E43200C33CD1 /* AppleUserAuthService.swift */; };
 		790AD2FE2DF9E43200C33CD1 /* UISwitch+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1712DF9E43200C33CD1 /* UISwitch+Extensions.swift */; };
-		790AD2FF2DF9E43200C33CD1 /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD16F2DF9E43200C33CD1 /* UIFont+Extensions.swift */; };
 		790AD3002DF9E43200C33CD1 /* TrackingServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1E12DF9E43200C33CD1 /* TrackingServiceType.swift */; };
 		790AD3012DF9E43200C33CD1 /* UITabBarController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1722DF9E43200C33CD1 /* UITabBarController+Extensions.swift */; };
 		790AD3022DF9E43200C33CD1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1E72DF9E43200C33CD1 /* User.swift */; };
@@ -302,7 +300,6 @@
 		790AD16C2DF9E43200C33CD1 /* TimeInterval+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Extensions.swift"; sourceTree = "<group>"; };
 		790AD16D2DF9E43200C33CD1 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
 		790AD16E2DF9E43200C33CD1 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		790AD16F2DF9E43200C33CD1 /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		790AD1702DF9E43200C33CD1 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		790AD1712DF9E43200C33CD1 /* UISwitch+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISwitch+Extensions.swift"; sourceTree = "<group>"; };
 		790AD1722DF9E43200C33CD1 /* UITabBarController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Extensions.swift"; sourceTree = "<group>"; };
@@ -561,7 +558,6 @@
 				790AD16C2DF9E43200C33CD1 /* TimeInterval+Extensions.swift */,
 				790AD16D2DF9E43200C33CD1 /* UIButton+Extensions.swift */,
 				790AD16E2DF9E43200C33CD1 /* UIColor+Extensions.swift */,
-				790AD16F2DF9E43200C33CD1 /* UIFont+Extensions.swift */,
 				790AD1702DF9E43200C33CD1 /* UIImage+Extensions.swift */,
 				790AD1712DF9E43200C33CD1 /* UISwitch+Extensions.swift */,
 				790AD1722DF9E43200C33CD1 /* UITabBarController+Extensions.swift */,
@@ -1627,7 +1623,6 @@
 				790AD24E2DF9E43200C33CD1 /* BugTrackingEvent.swift in Sources */,
 				790AD24F2DF9E43200C33CD1 /* AppleUserAuthService.swift in Sources */,
 				790AD2502DF9E43200C33CD1 /* UISwitch+Extensions.swift in Sources */,
-				790AD2512DF9E43200C33CD1 /* UIFont+Extensions.swift in Sources */,
 				790AD2522DF9E43200C33CD1 /* TrackingServiceType.swift in Sources */,
 				790AD2532DF9E43200C33CD1 /* UITabBarController+Extensions.swift in Sources */,
 				790AD2542DF9E43200C33CD1 /* User.swift in Sources */,
@@ -1736,7 +1731,6 @@
 				790AD2FC2DF9E43200C33CD1 /* BugTrackingEvent.swift in Sources */,
 				790AD2FD2DF9E43200C33CD1 /* AppleUserAuthService.swift in Sources */,
 				790AD2FE2DF9E43200C33CD1 /* UISwitch+Extensions.swift in Sources */,
-				790AD2FF2DF9E43200C33CD1 /* UIFont+Extensions.swift in Sources */,
 				790AD3002DF9E43200C33CD1 /* TrackingServiceType.swift in Sources */,
 				790AD3012DF9E43200C33CD1 /* UITabBarController+Extensions.swift in Sources */,
 				790AD3022DF9E43200C33CD1 /* User.swift in Sources */,

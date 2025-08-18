@@ -45,7 +45,7 @@ enum Tab: Int {
     var tabImage: UIImage? {
         switch self {
         case .Home:
-            return UIImage(named: "tabiconHomeFilled")
+            return UIImage(named: "tabiconHomeOutline")
         case .FeelingPlanet:
             return UIImage(named: "tabiconPlanetFilled")
         case .Canvas:
@@ -80,27 +80,15 @@ class MainViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.tabBar.clipsToBounds = false
-        self.tabBar.barTintColor = .backgroundBlack
-        self.tabBar.tintColor = .white
-        self.tabBar.isTranslucent = false
-        self.tabBar.layer.borderColor = UIColor.clear.cgColor
-        self.tabBar.layer.borderWidth = 0
-        self.tabBar.layer.shadowOffset = CGSize.zero
-        self.tabBar.layer.shadowRadius = 8
-        self.tabBar.layer.shadowOpacity = 0.6
-        self.tabBar.layer.shadowColor = UIColor.black.cgColor
-        
-        if #available(iOS 15.0, *) {
-            let appearance = UITabBarAppearance()
-            appearance.configureWithOpaqueBackground()
-            appearance.backgroundColor = .backgroundBlack
-            appearance.shadowImage = UIImage()
-            appearance.backgroundImage = UIImage()
-            appearance.shadowColor = .clear
-            self.tabBar.standardAppearance = appearance
-            self.tabBar.scrollEdgeAppearance = appearance
-        }
+       
+        let appearance = UITabBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = .white
+        appearance.shadowImage = UIImage()
+        appearance.backgroundImage = UIImage()
+        appearance.shadowColor = .clear
+        self.tabBar.standardAppearance = appearance
+        self.tabBar.scrollEdgeAppearance = appearance
         
         let tabs: [Tab] = [.Home, .FeelingPlanet, .Canvas, .Seed, .Wall]
         var navs: [UINavigationController] = []
@@ -108,13 +96,11 @@ class MainViewController: UITabBarController {
         for tabItem in tabs {
             let vc = tabItem.viewController
             
-            vc.navigationItem.largeTitleDisplayMode = .always
             vc.tabBarItem = UITabBarItem(title: tabItem.tabTitle, image: tabItem.tabImage, selectedImage: tabItem.tabSelectedImage)
             vc.tabBarItem.imageInsets = UIEdgeInsets(top: 6, left: 0, bottom: -6, right: 0)
             
             navs.append(UINavigationController(rootViewController: vc))
         }
         setViewControllers(navs, animated: false)
-
     }
 }

@@ -3,15 +3,14 @@
   
 */
 
-"Home" = "探索";
+"Home" = "Today";
 "FeelingPlanet" = "Feeling Planet";
-"Canvas" = "Canvas";
-"Seed" = "Seed";
-"Wall" = "Wall";
-"Account" = "帳戶";
-"Guest" = "訪客";
-"Vote" = "新書投票區";
-"Notification" = "通知";
+"Canvas" = "Inner Canvas";
+"Seed" = "Soul Seed";
+"Wall" = "Soul Wall";
+"Account" = "Account";
+"Guest" = "Guest";
+"Notification" = "Notification";
 
 "app_update_alert_title" =  "更新";
 "app_update_alert_description" = "有重大更新，請立即前往App Store更新";

@@ -1,6 +1,5 @@
 //
 //  UIColor+Extensions.swift
-//  KonoSummit
 //
 //  Created by mingshing on 2021/8/29.
 //
