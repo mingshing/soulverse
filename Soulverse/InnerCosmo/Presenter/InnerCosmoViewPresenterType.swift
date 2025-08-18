@@ -1,18 +1,15 @@
 //
-//  HomeViewPresneterType.swift
-//  KonoSummit
-//
-//  Created by mingshing on 2021/8/15.
+//  InnerCosmoViewPresenterType.swift
 //
 
 import Foundation
 
-protocol HomeViewPresenterDelegate: AnyObject {
+protocol InnerCosmoViewPresenterDelegate: AnyObject {
     func didUpdate(viewModel: HomeViewModel)
     func didUpdateSection(at index: IndexSet)
 }
 
-protocol HomeViewPresenterType {
+protocol InnerCosmoViewPresenterType {
     
     func fetchData(isUpdate: Bool)
     

@@ -68,30 +68,30 @@ struct HostAppContants {
     
     static let schemaVersion: UInt64 = 5
     
-    static let serviceName = "com.thekono.summit"
+    static let serviceName = "com.thekono.soulverse"
     
-    static let privacyUrl = "https://konosummit.thekono.com/privacy"
-    static let policyUrl = "https://konosummit.thekono.com/terms"
-    static let faqUrl = "https://thekono.notion.site/Kono-Summit-e0a0ad9fd8d248a699a0b349f16ff2e0"
+    static let privacyUrl = "https://soulverse.thekono.com/privacy"
+    static let policyUrl = "https://soulverse.thekono.com/terms"
+    static let faqUrl = "https://thekono.notion.site/Soulverse-e0a0ad9fd8d248a699a0b349f16ff2e0"
     static let appStoreUrl = "https://itunes.apple.com/tw/app/1581434131"
     static let cancelSurveyUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdOG5IKSoabMUk0zXUlQVa6LG7MK3zuxeS474VI45Ir7gK-ig/viewform?usp=pp_url&entry.1926187267="
     static let contactRecipient = "support@thekono.com"
-    static let contactSubject = "Summit 問題回報"
-    static let deleteAccountSubject = "刪除Kono Summit帳號"
+    static let contactSubject = "Soulverse 問題回報"
+    static let deleteAccountSubject = "刪除Soulverse帳號"
     
-    static let recommendBookMailSubject = "為 Kono Summit 推薦更多書籍"
+    static let recommendBookMailSubject = "為 Soulverse 推薦更多書籍"
     
     static let anonymousUserId = "anonymousUserId"
     
     #if Dev
-    static let serverUrl = "https://summit-dev.thekono.com/api"
-    static let sessionKey = "summit-dev"
+    static let serverUrl = "https://soulverse-dev.thekono.com/api"
+    static let sessionKey = "soulverse-dev"
     static var deleteAccountURL = "https://docs.google.com/forms/d/e/1FAIpQLSejv6NTc2p4uJmUAXFYJ5RURkw0IT2sfPcCbPDvLMBkkaL_6g/viewform?usp=pp_url&entry.2074189006="
     static var suggestTitleURL =
     "https://docs.google.com/forms/d/e/1FAIpQLSfW2E-SKBRU3mdHbNOKnoJYkHTXkMCGPHu6UkP8O2GDnwhZrQ/viewform?usp=pp_url&entry.1408017048="
     #else
-    static let serverUrl = "https://summit.thekono.com/api"
-    static let sessionKey = "summit-prd"
+    static let serverUrl = "https://soulverse.thekono.com/api"
+    static let sessionKey = "soulverse-prd"
     static var deleteAccountURL = "https://docs.google.com/forms/d/e/1FAIpQLSejv6NTc2p4uJmUAXFYJ5RURkw0IT2sfPcCbPDvLMBkkaL_6g/viewform?usp=pp_url&entry.2074189006="
     static var suggestTitleURL =
     "https://docs.google.com/forms/d/e/1FAIpQLSfW2E-SKBRU3mdHbNOKnoJYkHTXkMCGPHu6UkP8O2GDnwhZrQ/viewform?usp=pp_url&entry.1408017048="
@@ -126,7 +126,7 @@ struct Notification {
 
 struct InAppURLScheme {
     static let vocabulary = "vocabulary"
-    static let hostApp = "summit"
+    static let hostApp = "soulverse"
 }
 
 enum ContentType: String, Equatable {

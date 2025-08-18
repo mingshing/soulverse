@@ -1,21 +1,21 @@
 //
-//  SummitNavigationView.swift
-//  KonoSummit
+//  SoulverseNavigationView.swift
+//  Soulverse
 //
 //  Created by mingshing on 2021/9/19.
 //
 
 import UIKit
 
-protocol NavigationViewDelegate: AnyObject {
+protocol SoulverseNavigationViewDelegate: AnyObject {
     
-    func navigationViewDidTapBack (_ SummitNavigationView: SummitNavigationView)
+    func navigationViewDidTapBack (_ soulverseNavigationView: SoulverseNavigationView)
 
 }
 
-class SummitNavigationView: UIView {
+class SoulverseNavigationView: UIView {
     
-    weak var delegate: NavigationViewDelegate?
+    weak var delegate: SoulverseNavigationViewDelegate?
     
     private let backButton: UIButton = {
         let button = UIButton()

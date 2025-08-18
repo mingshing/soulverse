@@ -1,9 +1,9 @@
 //
-//  WallViewModel.swift
+//  ToolsViewModel.swift
 //
 
 import Foundation
 
-struct WallViewModel {
+struct ToolsViewModel {
     var isLoading: Bool
 } 

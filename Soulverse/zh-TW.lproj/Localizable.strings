@@ -3,14 +3,15 @@
   
 */
 
-"Home" = "Today";
-"FeelingPlanet" = "Feeling Planet";
-"Canvas" = "Inner Canvas";
-"Seed" = "Soul Seed";
-"Wall" = "Soul Wall";
-"Account" = "Account";
-"Guest" = "Guest";
-"Notification" = "Notification";
+// Soulverse Tab Names
+"inner_cosmo" = "內在宇宙";
+"soul_insight" = "靈魂洞察";
+"canvas" = "畫布";
+"tools" = "工具";
+"soul_quest" = "靈魂探索";
+"account" = "Account";
+"guest" = "Guest";
+"notification" = "Notification";
 
 "app_update_alert_title" =  "更新";
 "app_update_alert_description" = "有重大更新，請立即前往App Store更新";

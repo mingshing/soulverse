@@ -1,29 +1,29 @@
 //
-//  SeedViewPresenter.swift
+//  SoulQuestViewPresenter.swift
 //
 
 import Foundation
 
-protocol SeedViewPresenterDelegate: AnyObject {
-    func didUpdate(viewModel: SeedViewModel)
+protocol SoulQuestViewPresenterDelegate: AnyObject {
+    func didUpdate(viewModel: SoulQuestViewModel)
     func didUpdateSection(at index: IndexSet)
 }
 
-protocol SeedViewPresenterType: AnyObject {
-    var delegate: SeedViewPresenterDelegate? { get set }
+protocol SoulQuestViewPresenterType: AnyObject {
+    var delegate: SoulQuestViewPresenterDelegate? { get set }
     func fetchData(isUpdate: Bool)
     func numberOfSectionsOnTableView() -> Int
 }
 
-class SeedViewPresenter: SeedViewPresenterType {
-    weak var delegate: SeedViewPresenterDelegate?
-    private var loadedModel: SeedViewModel = SeedViewModel(isLoading: false) {
+class SoulQuestViewPresenter: SoulQuestViewPresenterType {
+    weak var delegate: SoulQuestViewPresenterDelegate?
+    private var loadedModel: SoulQuestViewModel = SoulQuestViewModel(isLoading: false) {
         didSet {
             delegate?.didUpdate(viewModel: loadedModel)
         }
     }
     private var isFetchingData: Bool = false
-    private var dataAccessQueue = DispatchQueue(label: "seed_data", attributes: .concurrent)
+    private var dataAccessQueue = DispatchQueue(label: "wall_data", attributes: .concurrent)
     init() {}
     public func fetchData(isUpdate: Bool = false) {
         if isFetchingData { return }

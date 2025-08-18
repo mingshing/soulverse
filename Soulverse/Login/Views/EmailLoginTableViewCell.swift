@@ -75,8 +75,8 @@ class EmailLoginTableViewCell: UITableViewCell {
         label.addGestureRecognizer(singleTap)
         return label
     }()
-    private lazy var actionButton: SummitButton = {
-        let button = SummitButton(title: NSLocalizedString("login_title_register", comment: ""), image: nil, delegate: self)
+    private lazy var actionButton: SoulverseButton = {
+        let button = SoulverseButton(title: NSLocalizedString("login_title_register", comment: ""), image: nil, delegate: self)
         button.backgroundColor = .disableGray
         return button
     }()
@@ -218,8 +218,8 @@ class EmailLoginTableViewCell: UITableViewCell {
     
 }
 
-extension EmailLoginTableViewCell: SummitButtonDelegate {
-    func clickSummitButton(_ button: SummitButton) {
+extension EmailLoginTableViewCell: SoulverseButtonDelegate {
+    func clickSoulverseButton(_ button: SoulverseButton) {
         if button == actionButton {
 
             guard let account = accountTextField.text,

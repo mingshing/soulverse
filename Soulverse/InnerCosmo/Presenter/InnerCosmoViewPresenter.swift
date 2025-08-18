@@ -1,20 +1,12 @@
 //
-//  HomeViewPresenter.swift
-//  KonoSummit
-//
-//  Created by mingshing on 2021/8/15.
+//  InnerCosmoViewPresenter.swift
 //
 
 import Firebase
 
-struct LatestSectionBookConfig: Codable {
-    let bookIds: [String]
-}
-
-
-class HomeViewPresenter: HomeViewPresenterType {
+class InnerCosmoViewPresenter: InnerCosmoViewPresenterType {
     
-    weak var delegate: HomeViewPresenterDelegate?
+    weak var delegate: InnerCosmoViewPresenterDelegate?
     private var loadedModel: HomeViewModel = HomeViewModel(isLoading: false) {
         didSet {
             delegate?.didUpdate(viewModel: loadedModel)

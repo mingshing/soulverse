@@ -68,8 +68,8 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
     }
 }
 
-extension ViewController: NavigationViewDelegate {
-    func navigationViewDidTapBack(_ SummitNavigationView: SummitNavigationView) {
+extension ViewController: SoulverseNavigationViewDelegate {
+    func navigationViewDidTapBack(_ soulverseNavigationView: SoulverseNavigationView) {
         self.navigationController?.popViewController(animated: true)
     }
 }

@@ -37,8 +37,8 @@ class ForgetPasswordViewController: ViewController {
         return textField
     }()
     
-    private lazy var actionButton: SummitButton = {
-        let button = SummitButton(title: "重設密碼", image: nil, delegate: self)
+    private lazy var actionButton: SoulverseButton = {
+        let button = SoulverseButton(title: "重設密碼", image: nil, delegate: self)
         button.backgroundColor = .disableGray
         button.isUserInteractionEnabled = false
         return button
@@ -171,8 +171,8 @@ extension ForgetPasswordViewController: SummitInputTextFieldDelegate {
     }
 }
 
-extension ForgetPasswordViewController: SummitButtonDelegate {
-    func clickSummitButton(_ button: SummitButton) {
+extension ForgetPasswordViewController: SoulverseButtonDelegate {
+    func clickSoulverseButton(_ button: SoulverseButton) {
         
         if button == actionButton {
 

@@ -1,6 +1,6 @@
 //
 //  UserAPIService.swift
-//  KonoSummit
+//  Soulverse
 //
 //  Created by mingshing on 2021/12/8.
 //
@@ -64,7 +64,7 @@ extension UserAPIService: TargetType {
         switch self {
         case .login(let account, let validator, let platform),
              .signup(let account, let validator, let platform):
-            return .requestParameters(parameters: ["platform": platform, "account": account, "validator": validator, "service": "summit"], encoding: JSONEncoding.default)
+            return .requestParameters(parameters: ["platform": platform, "account": account, "validator": validator, "service": "soulverse"], encoding: JSONEncoding.default)
         case .remindPassword(let account):
             return .requestParameters(parameters: ["account": account], encoding: JSONEncoding.default)
         case .updateFCMToken(let token):

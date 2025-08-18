@@ -1,29 +1,29 @@
 //
-//  WallViewPresenter.swift
+//  ToolsViewPresenter.swift
 //
 
 import Foundation
 
-protocol WallViewPresenterDelegate: AnyObject {
-    func didUpdate(viewModel: WallViewModel)
+protocol ToolsViewPresenterDelegate: AnyObject {
+    func didUpdate(viewModel: ToolsViewModel)
     func didUpdateSection(at index: IndexSet)
 }
 
-protocol WallViewPresenterType: AnyObject {
-    var delegate: WallViewPresenterDelegate? { get set }
+protocol ToolsViewPresenterType: AnyObject {
+    var delegate: ToolsViewPresenterDelegate? { get set }
     func fetchData(isUpdate: Bool)
     func numberOfSectionsOnTableView() -> Int
 }
 
-class WallViewPresenter: WallViewPresenterType {
-    weak var delegate: WallViewPresenterDelegate?
-    private var loadedModel: WallViewModel = WallViewModel(isLoading: false) {
+class ToolsViewPresenter: ToolsViewPresenterType {
+    weak var delegate: ToolsViewPresenterDelegate?
+    private var loadedModel: ToolsViewModel = ToolsViewModel(isLoading: false) {
         didSet {
             delegate?.didUpdate(viewModel: loadedModel)
         }
     }
     private var isFetchingData: Bool = false
-    private var dataAccessQueue = DispatchQueue(label: "wall_data", attributes: .concurrent)
+    private var dataAccessQueue = DispatchQueue(label: "seed_data", attributes: .concurrent)
     init() {}
     public func fetchData(isUpdate: Bool = false) {
         if isFetchingData { return }

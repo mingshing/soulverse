@@ -236,7 +236,7 @@ extension NotificationViewController: NotificationEmptyViewDelegate {
     func didTapCTA(_ emptyView: NotificationEmptyView) {
         
         if presenter!.hasAskPermission {
-            tabBarController?.selectedIndex = Tab.Home.rawValue
+            tabBarController?.selectedIndex = SoulverseTab.innerCosmo.rawValue
         } else {
             presenter!.askNotificationPermission()
         }

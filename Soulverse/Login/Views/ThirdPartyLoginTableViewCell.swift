@@ -15,13 +15,13 @@ protocol ThirdPartyLoginTableViewCellDelegate: AnyObject {
 
 class ThirdPartyLoginTableViewCell: UITableViewCell {
         
-    private lazy var fbButton: SummitButton = {
-        let button = SummitButton(title: NSLocalizedString("login_action_facebook", comment: ""), image: UIImage(named: "facebookLogo"), delegate: self)
+    private lazy var fbButton: SoulverseButton = {
+        let button = SoulverseButton(title: NSLocalizedString("login_action_facebook", comment: ""), image: UIImage(named: "facebookLogo"), delegate: self)
         button.backgroundColor = .facebookThemeColor
         return button
     }()
-    private lazy var appleButton: SummitButton = {
-        let button = SummitButton(title: NSLocalizedString("login_action_apple", comment: ""), image: UIImage(named: "appleLogo"), delegate: self)
+    private lazy var appleButton: SoulverseButton = {
+        let button = SoulverseButton(title: NSLocalizedString("login_action_apple", comment: ""), image: UIImage(named: "appleLogo"), delegate: self)
         button.backgroundColor = .black
         return button
     }()
@@ -71,9 +71,9 @@ class ThirdPartyLoginTableViewCell: UITableViewCell {
     }
 }
 
-extension ThirdPartyLoginTableViewCell: SummitButtonDelegate {
+extension ThirdPartyLoginTableViewCell: SoulverseButtonDelegate {
     
-    func clickSummitButton(_ button: SummitButton) {
+    func clickSoulverseButton(_ button: SoulverseButton) {
         delegate?.didTapActionButton(self)
     }
     

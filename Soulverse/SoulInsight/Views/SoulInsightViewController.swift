@@ -1,10 +1,10 @@
 //
-//  WallViewController.swift
+//  SoulInsightViewController.swift
 //
 
 import UIKit
 
-class WallViewController: ViewController {
+class SoulInsightViewController: ViewController {
     private lazy var tableView: UITableView = { [weak self] in
         let table = UITableView(frame: .zero, style: .grouped)
         table.backgroundColor = .clear
@@ -16,10 +16,10 @@ class WallViewController: ViewController {
         table.refreshControl?.addTarget(self, action: #selector(pullToRefresh), for: .valueChanged)
         return table
     }()
-    private let presenter = WallViewPresenter()
+    private let presenter = SoulInsightViewPresenter()
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = NSLocalizedString("Wall", comment: "")
+        title = NSLocalizedString("soul_insight", comment: "")
         setupView()
         setupPresenter()
     }
@@ -56,7 +56,7 @@ class WallViewController: ViewController {
         }
     }
 }
-extension WallViewController: UITableViewDataSource, UITableViewDelegate {
+extension SoulInsightViewController: UITableViewDataSource, UITableViewDelegate {
     private func getSectionHeaderView(title: String, bottomPadding: CGFloat = 10) -> UIView {
         let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
         let headerView = UIView()
@@ -93,8 +93,8 @@ extension WallViewController: UITableViewDataSource, UITableViewDelegate {
         return UITableViewCell()
     }
 }
-extension WallViewController: WallViewPresenterDelegate {
-    func didUpdate(viewModel: WallViewModel) {
+extension SoulInsightViewController: SoulInsightViewPresenterDelegate {
+    func didUpdate(viewModel: FeelingPlanetViewModel) {
         DispatchQueue.main.async { [weak self] in
             guard let weakSelf = self else { return }
             weakSelf.showLoading = viewModel.isLoading
@@ -112,7 +112,7 @@ extension WallViewController: WallViewPresenterDelegate {
         }
     }
 }
-extension WallViewController: UIGestureRecognizerDelegate {
+extension SoulInsightViewController: UIGestureRecognizerDelegate {
     func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
     }

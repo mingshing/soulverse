@@ -15,7 +15,6 @@
 		790AD2162DF9E43200C33CD1 /* ErrorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1DD2DF9E43200C33CD1 /* ErrorEvent.swift */; };
 		790AD2172DF9E43200C33CD1 /* ChangePasswordCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD15D2DF9E43200C33CD1 /* ChangePasswordCellViewModel.swift */; };
 		790AD2182DF9E43200C33CD1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD2072DF9E43200C33CD1 /* Constants.swift */; };
-		790AD2192DF9E43200C33CD1 /* SummitNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1FE2DF9E43200C33CD1 /* SummitNavigationView.swift */; };
 		790AD21A2DF9E43200C33CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD2062DF9E43200C33CD1 /* AppDelegate.swift */; };
 		790AD21B2DF9E43200C33CD1 /* AccountEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1DB2DF9E43200C33CD1 /* AccountEvent.swift */; };
 		790AD21C2DF9E43200C33CD1 /* ChangePasswordPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD15B2DF9E43200C33CD1 /* ChangePasswordPresenterType.swift */; };
@@ -24,14 +23,11 @@
 		790AD21F2DF9E43200C33CD1 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1762DF9E43200C33CD1 /* UIViewController+Extensions.swift */; };
 		790AD2202DF9E43200C33CD1 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD16D2DF9E43200C33CD1 /* UIButton+Extensions.swift */; };
 		790AD2212DF9E43200C33CD1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD2022DF9E43200C33CD1 /* WebViewController.swift */; };
-		790AD2222DF9E43200C33CD1 /* HomeItemCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1832DF9E43200C33CD1 /* HomeItemCellViewModel.swift */; };
 		790AD2232DF9E43200C33CD1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD16B2DF9E43200C33CD1 /* String+Extension.swift */; };
 		790AD2242DF9E43200C33CD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD2102DF9E43200C33CD1 /* SceneDelegate.swift */; };
 		790AD2252DF9E43200C33CD1 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1692DF9E43200C33CD1 /* Array+Extensions.swift */; };
 		790AD2262DF9E43200C33CD1 /* TrackingEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1DE2DF9E43200C33CD1 /* TrackingEventType.swift */; };
 		790AD2272DF9E43200C33CD1 /* ChangePasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD15E2DF9E43200C33CD1 /* ChangePasswordViewModel.swift */; };
-		790AD2282DF9E43200C33CD1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1842DF9E43200C33CD1 /* HomeViewModel.swift */; };
-		790AD2292DF9E43200C33CD1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1862DF9E43200C33CD1 /* HomeViewController.swift */; };
 		790AD22A2DF9E43200C33CD1 /* NotificationEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD19C2DF9E43200C33CD1 /* NotificationEmptyView.swift */; };
 		790AD22B2DF9E43200C33CD1 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1B12DF9E43200C33CD1 /* ProfilePresenter.swift */; };
 		790AD22C2DF9E43200C33CD1 /* FBUserAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1EE2DF9E43200C33CD1 /* FBUserAuthService.swift */; };
@@ -66,7 +62,6 @@
 		790AD2492DF9E43200C33CD1 /* SummitTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1E42DF9E43200C33CD1 /* SummitTracker.swift */; };
 		790AD24A2DF9E43200C33CD1 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1742DF9E43200C33CD1 /* UITextField+Extensions.swift */; };
 		790AD24B2DF9E43200C33CD1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1AF2DF9E43200C33CD1 /* ProfileViewController.swift */; };
-		790AD24C2DF9E43200C33CD1 /* HomeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1802DF9E43200C33CD1 /* HomeViewPresenter.swift */; };
 		790AD24D2DF9E43200C33CD1 /* KonoUserAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1EF2DF9E43200C33CD1 /* KonoUserAuthService.swift */; };
 		790AD24E2DF9E43200C33CD1 /* BugTrackingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1DC2DF9E43200C33CD1 /* BugTrackingEvent.swift */; };
 		790AD24F2DF9E43200C33CD1 /* AppleUserAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1EC2DF9E43200C33CD1 /* AppleUserAuthService.swift */; };
@@ -79,10 +74,8 @@
 		790AD2572DF9E43200C33CD1 /* ForgetPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1782DF9E43200C33CD1 /* ForgetPasswordPresenter.swift */; };
 		790AD2582DF9E43200C33CD1 /* LoginViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1892DF9E43200C33CD1 /* LoginViewPresenter.swift */; };
 		790AD2592DF9E43200C33CD1 /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD16A2DF9E43200C33CD1 /* Codable+Extensions.swift */; };
-		790AD25A2DF9E43200C33CD1 /* SummitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1FC2DF9E43200C33CD1 /* SummitButton.swift */; };
 		790AD25B2DF9E43200C33CD1 /* UITapGestureRecognizer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1732DF9E43200C33CD1 /* UITapGestureRecognizer+Extensions.swift */; };
 		790AD25C2DF9E43200C33CD1 /* SummitUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1F62DF9E43200C33CD1 /* SummitUserModel.swift */; };
-		790AD25D2DF9E43200C33CD1 /* HomeViewPresneterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1812DF9E43200C33CD1 /* HomeViewPresneterType.swift */; };
 		790AD25E2DF9E43200C33CD1 /* NotificationItemsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1F22DF9E43200C33CD1 /* NotificationItemsResponse.swift */; };
 		790AD25F2DF9E43200C33CD1 /* ForgetPasswordPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1792DF9E43200C33CD1 /* ForgetPasswordPresenterType.swift */; };
 		790AD2602DF9E43200C33CD1 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD19A2DF9E43200C33CD1 /* NotificationViewModel.swift */; };
@@ -114,7 +107,6 @@
 		790AD2C42DF9E43200C33CD1 /* ErrorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1DD2DF9E43200C33CD1 /* ErrorEvent.swift */; };
 		790AD2C52DF9E43200C33CD1 /* ChangePasswordCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD15D2DF9E43200C33CD1 /* ChangePasswordCellViewModel.swift */; };
 		790AD2C62DF9E43200C33CD1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD2072DF9E43200C33CD1 /* Constants.swift */; };
-		790AD2C72DF9E43200C33CD1 /* SummitNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1FE2DF9E43200C33CD1 /* SummitNavigationView.swift */; };
 		790AD2C82DF9E43200C33CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD2062DF9E43200C33CD1 /* AppDelegate.swift */; };
 		790AD2C92DF9E43200C33CD1 /* AccountEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1DB2DF9E43200C33CD1 /* AccountEvent.swift */; };
 		790AD2CA2DF9E43200C33CD1 /* ChangePasswordPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD15B2DF9E43200C33CD1 /* ChangePasswordPresenterType.swift */; };
@@ -123,14 +115,11 @@
 		790AD2CD2DF9E43200C33CD1 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1762DF9E43200C33CD1 /* UIViewController+Extensions.swift */; };
 		790AD2CE2DF9E43200C33CD1 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD16D2DF9E43200C33CD1 /* UIButton+Extensions.swift */; };
 		790AD2CF2DF9E43200C33CD1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD2022DF9E43200C33CD1 /* WebViewController.swift */; };
-		790AD2D02DF9E43200C33CD1 /* HomeItemCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1832DF9E43200C33CD1 /* HomeItemCellViewModel.swift */; };
 		790AD2D12DF9E43200C33CD1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD16B2DF9E43200C33CD1 /* String+Extension.swift */; };
 		790AD2D22DF9E43200C33CD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD2102DF9E43200C33CD1 /* SceneDelegate.swift */; };
 		790AD2D32DF9E43200C33CD1 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1692DF9E43200C33CD1 /* Array+Extensions.swift */; };
 		790AD2D42DF9E43200C33CD1 /* TrackingEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1DE2DF9E43200C33CD1 /* TrackingEventType.swift */; };
 		790AD2D52DF9E43200C33CD1 /* ChangePasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD15E2DF9E43200C33CD1 /* ChangePasswordViewModel.swift */; };
-		790AD2D62DF9E43200C33CD1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1842DF9E43200C33CD1 /* HomeViewModel.swift */; };
-		790AD2D72DF9E43200C33CD1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1862DF9E43200C33CD1 /* HomeViewController.swift */; };
 		790AD2D82DF9E43200C33CD1 /* NotificationEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD19C2DF9E43200C33CD1 /* NotificationEmptyView.swift */; };
 		790AD2D92DF9E43200C33CD1 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1B12DF9E43200C33CD1 /* ProfilePresenter.swift */; };
 		790AD2DA2DF9E43200C33CD1 /* FBUserAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1EE2DF9E43200C33CD1 /* FBUserAuthService.swift */; };
@@ -165,7 +154,6 @@
 		790AD2F72DF9E43200C33CD1 /* SummitTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1E42DF9E43200C33CD1 /* SummitTracker.swift */; };
 		790AD2F82DF9E43200C33CD1 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1742DF9E43200C33CD1 /* UITextField+Extensions.swift */; };
 		790AD2F92DF9E43200C33CD1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1AF2DF9E43200C33CD1 /* ProfileViewController.swift */; };
-		790AD2FA2DF9E43200C33CD1 /* HomeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1802DF9E43200C33CD1 /* HomeViewPresenter.swift */; };
 		790AD2FB2DF9E43200C33CD1 /* KonoUserAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1EF2DF9E43200C33CD1 /* KonoUserAuthService.swift */; };
 		790AD2FC2DF9E43200C33CD1 /* BugTrackingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1DC2DF9E43200C33CD1 /* BugTrackingEvent.swift */; };
 		790AD2FD2DF9E43200C33CD1 /* AppleUserAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1EC2DF9E43200C33CD1 /* AppleUserAuthService.swift */; };
@@ -178,10 +166,8 @@
 		790AD3052DF9E43200C33CD1 /* ForgetPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1782DF9E43200C33CD1 /* ForgetPasswordPresenter.swift */; };
 		790AD3062DF9E43200C33CD1 /* LoginViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1892DF9E43200C33CD1 /* LoginViewPresenter.swift */; };
 		790AD3072DF9E43200C33CD1 /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD16A2DF9E43200C33CD1 /* Codable+Extensions.swift */; };
-		790AD3082DF9E43200C33CD1 /* SummitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1FC2DF9E43200C33CD1 /* SummitButton.swift */; };
 		790AD3092DF9E43200C33CD1 /* UITapGestureRecognizer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1732DF9E43200C33CD1 /* UITapGestureRecognizer+Extensions.swift */; };
 		790AD30A2DF9E43200C33CD1 /* SummitUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1F62DF9E43200C33CD1 /* SummitUserModel.swift */; };
-		790AD30B2DF9E43200C33CD1 /* HomeViewPresneterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1812DF9E43200C33CD1 /* HomeViewPresneterType.swift */; };
 		790AD30C2DF9E43200C33CD1 /* NotificationItemsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1F22DF9E43200C33CD1 /* NotificationItemsResponse.swift */; };
 		790AD30D2DF9E43200C33CD1 /* ForgetPasswordPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD1792DF9E43200C33CD1 /* ForgetPasswordPresenterType.swift */; };
 		790AD30E2DF9E43200C33CD1 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD19A2DF9E43200C33CD1 /* NotificationViewModel.swift */; };
@@ -203,30 +189,46 @@
 		790AD3422DF9E48E00C33CD1 /* SummitTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD3362DF9E48E00C33CD1 /* SummitTrackerTests.swift */; };
 		790AD3472DF9E4C200C33CD1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 790AD3442DF9E4C200C33CD1 /* Info.plist */; };
 		790AD3482DF9E4C200C33CD1 /* KonoSummitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790AD3452DF9E4C200C33CD1 /* KonoSummitUITests.swift */; };
+		7951A9B92E532C85006EB0EC /* SoulverseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9B62E532C85006EB0EC /* SoulverseButton.swift */; };
+		7951A9BA2E532C85006EB0EC /* SoulverseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9B82E532C85006EB0EC /* SoulverseTabBar.swift */; };
+		7951A9BB2E532C85006EB0EC /* SoulverseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9B72E532C85006EB0EC /* SoulverseNavigationView.swift */; };
+		7951A9BC2E532C85006EB0EC /* SoulverseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9B62E532C85006EB0EC /* SoulverseButton.swift */; };
+		7951A9BD2E532C85006EB0EC /* SoulverseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9B82E532C85006EB0EC /* SoulverseTabBar.swift */; };
+		7951A9BE2E532C85006EB0EC /* SoulverseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9B72E532C85006EB0EC /* SoulverseNavigationView.swift */; };
+		7951A9C82E5376B5006EB0EC /* HomeItemCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9C22E5376B5006EB0EC /* HomeItemCellViewModel.swift */; };
+		7951A9C92E5376B5006EB0EC /* InnerCosmoViewPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9C02E5376B5006EB0EC /* InnerCosmoViewPresenterType.swift */; };
+		7951A9CA2E5376B5006EB0EC /* InnerCosmoViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9BF2E5376B5006EB0EC /* InnerCosmoViewPresenter.swift */; };
+		7951A9CB2E5376B5006EB0EC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9C32E5376B5006EB0EC /* HomeViewModel.swift */; };
+		7951A9CC2E5376B5006EB0EC /* InnerCosmoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9C52E5376B5006EB0EC /* InnerCosmoViewController.swift */; };
+		7951A9CD2E5376B5006EB0EC /* HomeItemCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9C22E5376B5006EB0EC /* HomeItemCellViewModel.swift */; };
+		7951A9CE2E5376B5006EB0EC /* InnerCosmoViewPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9C02E5376B5006EB0EC /* InnerCosmoViewPresenterType.swift */; };
+		7951A9CF2E5376B5006EB0EC /* InnerCosmoViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9BF2E5376B5006EB0EC /* InnerCosmoViewPresenter.swift */; };
+		7951A9D02E5376B5006EB0EC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9C32E5376B5006EB0EC /* HomeViewModel.swift */; };
+		7951A9D12E5376B5006EB0EC /* InnerCosmoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9C52E5376B5006EB0EC /* InnerCosmoViewController.swift */; };
+		7951A9D92E5376C4006EB0EC /* FeelingPlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9D42E5376C4006EB0EC /* FeelingPlanetViewModel.swift */; };
+		7951A9DA2E5376C4006EB0EC /* SoulInsightViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9D22E5376C4006EB0EC /* SoulInsightViewPresenter.swift */; };
+		7951A9DB2E5376C4006EB0EC /* SoulInsightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9D62E5376C4006EB0EC /* SoulInsightViewController.swift */; };
+		7951A9DC2E5376C4006EB0EC /* FeelingPlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9D42E5376C4006EB0EC /* FeelingPlanetViewModel.swift */; };
+		7951A9DD2E5376C4006EB0EC /* SoulInsightViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9D22E5376C4006EB0EC /* SoulInsightViewPresenter.swift */; };
+		7951A9DE2E5376C4006EB0EC /* SoulInsightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9D62E5376C4006EB0EC /* SoulInsightViewController.swift */; };
+		7951A9F32E5376F3006EB0EC /* SoulQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9F02E5376F3006EB0EC /* SoulQuestViewController.swift */; };
+		7951A9F42E5376F3006EB0EC /* WallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9EE2E5376F3006EB0EC /* WallViewModel.swift */; };
+		7951A9F52E5376F3006EB0EC /* SoulQuestViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9EC2E5376F3006EB0EC /* SoulQuestViewPresenter.swift */; };
+		7951A9F62E5376F3006EB0EC /* SoulQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9F02E5376F3006EB0EC /* SoulQuestViewController.swift */; };
+		7951A9F72E5376F3006EB0EC /* WallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9EE2E5376F3006EB0EC /* WallViewModel.swift */; };
+		7951A9F82E5376F3006EB0EC /* SoulQuestViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9EC2E5376F3006EB0EC /* SoulQuestViewPresenter.swift */; };
+		7951AA002E537704006EB0EC /* ToolsViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9F92E537704006EB0EC /* ToolsViewPresenter.swift */; };
+		7951AA012E537704006EB0EC /* ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9FD2E537704006EB0EC /* ToolsViewController.swift */; };
+		7951AA022E537704006EB0EC /* SeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9FB2E537704006EB0EC /* SeedViewModel.swift */; };
+		7951AA032E537704006EB0EC /* ToolsViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9F92E537704006EB0EC /* ToolsViewPresenter.swift */; };
+		7951AA042E537704006EB0EC /* ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9FD2E537704006EB0EC /* ToolsViewController.swift */; };
+		7951AA052E537704006EB0EC /* SeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9FB2E537704006EB0EC /* SeedViewModel.swift */; };
 		79B24C752DFC7B2A001220B6 /* CanvasViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C6E2DFC7B2A001220B6 /* CanvasViewPresenter.swift */; };
 		79B24C762DFC7B2A001220B6 /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C702DFC7B2A001220B6 /* CanvasViewModel.swift */; };
 		79B24C772DFC7B2A001220B6 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C722DFC7B2A001220B6 /* CanvasViewController.swift */; };
 		79B24C782DFC7B2A001220B6 /* CanvasViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C6E2DFC7B2A001220B6 /* CanvasViewPresenter.swift */; };
 		79B24C792DFC7B2A001220B6 /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C702DFC7B2A001220B6 /* CanvasViewModel.swift */; };
 		79B24C7A2DFC7B2A001220B6 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C722DFC7B2A001220B6 /* CanvasViewController.swift */; };
-		79B24C8F2DFC7B62001220B6 /* FeelingPlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C8A2DFC7B62001220B6 /* FeelingPlanetViewModel.swift */; };
-		79B24C902DFC7B62001220B6 /* FeelingPlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C8C2DFC7B62001220B6 /* FeelingPlanetViewController.swift */; };
-		79B24C912DFC7B62001220B6 /* FeelingPlanetViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C882DFC7B62001220B6 /* FeelingPlanetViewPresenter.swift */; };
-		79B24C922DFC7B62001220B6 /* FeelingPlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C8A2DFC7B62001220B6 /* FeelingPlanetViewModel.swift */; };
-		79B24C932DFC7B62001220B6 /* FeelingPlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C8C2DFC7B62001220B6 /* FeelingPlanetViewController.swift */; };
-		79B24C942DFC7B62001220B6 /* FeelingPlanetViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C882DFC7B62001220B6 /* FeelingPlanetViewPresenter.swift */; };
-		79B24C9C2DFC7B76001220B6 /* SeedViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C952DFC7B76001220B6 /* SeedViewPresenter.swift */; };
-		79B24C9D2DFC7B76001220B6 /* SeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C992DFC7B76001220B6 /* SeedViewController.swift */; };
-		79B24C9E2DFC7B76001220B6 /* SeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C972DFC7B76001220B6 /* SeedViewModel.swift */; };
-		79B24C9F2DFC7B76001220B6 /* SeedViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C952DFC7B76001220B6 /* SeedViewPresenter.swift */; };
-		79B24CA02DFC7B76001220B6 /* SeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C992DFC7B76001220B6 /* SeedViewController.swift */; };
-		79B24CA12DFC7B76001220B6 /* SeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C972DFC7B76001220B6 /* SeedViewModel.swift */; };
-		79B24CA92DFC7B83001220B6 /* WallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24CA62DFC7B83001220B6 /* WallViewController.swift */; };
-		79B24CAA2DFC7B83001220B6 /* WallViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24CA22DFC7B83001220B6 /* WallViewPresenter.swift */; };
-		79B24CAB2DFC7B83001220B6 /* WallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24CA42DFC7B83001220B6 /* WallViewModel.swift */; };
-		79B24CAC2DFC7B83001220B6 /* WallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24CA62DFC7B83001220B6 /* WallViewController.swift */; };
-		79B24CAD2DFC7B83001220B6 /* WallViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24CA22DFC7B83001220B6 /* WallViewPresenter.swift */; };
-		79B24CAE2DFC7B83001220B6 /* WallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24CA42DFC7B83001220B6 /* WallViewModel.swift */; };
 		79BB25162DF9E2C600ED3CBE /* OpenCC in Frameworks */ = {isa = PBXBuildFile; productRef = E8388395277AF9F80002C053 /* OpenCC */; };
 		79BB25172DF9E2C600ED3CBE /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = E8388397277AF9F80002C053 /* SwiftMessages */; };
 		79BB25182DF9E2C600ED3CBE /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E8388399277AF9F80002C053 /* Realm */; };
@@ -311,11 +313,6 @@
 		790AD1792DF9E43200C33CD1 /* ForgetPasswordPresenterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordPresenterType.swift; sourceTree = "<group>"; };
 		790AD17B2DF9E43200C33CD1 /* ForgetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewModel.swift; sourceTree = "<group>"; };
 		790AD17D2DF9E43200C33CD1 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
-		790AD1802DF9E43200C33CD1 /* HomeViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPresenter.swift; sourceTree = "<group>"; };
-		790AD1812DF9E43200C33CD1 /* HomeViewPresneterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPresneterType.swift; sourceTree = "<group>"; };
-		790AD1832DF9E43200C33CD1 /* HomeItemCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemCellViewModel.swift; sourceTree = "<group>"; };
-		790AD1842DF9E43200C33CD1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		790AD1862DF9E43200C33CD1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		790AD1892DF9E43200C33CD1 /* LoginViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewPresenter.swift; sourceTree = "<group>"; };
 		790AD18A2DF9E43200C33CD1 /* LoginViewPresenterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewPresenterType.swift; sourceTree = "<group>"; };
 		790AD18C2DF9E43200C33CD1 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -368,9 +365,7 @@
 		790AD1F72DF9E43200C33CD1 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		790AD1FA2DF9E43200C33CD1 /* GoogleSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSurveyViewController.swift; sourceTree = "<group>"; };
 		790AD1FB2DF9E43200C33CD1 /* SummitAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitAlertView.swift; sourceTree = "<group>"; };
-		790AD1FC2DF9E43200C33CD1 /* SummitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitButton.swift; sourceTree = "<group>"; };
 		790AD1FD2DF9E43200C33CD1 /* SummitInputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitInputTextField.swift; sourceTree = "<group>"; };
-		790AD1FE2DF9E43200C33CD1 /* SummitNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitNavigationView.swift; sourceTree = "<group>"; };
 		790AD1FF2DF9E43200C33CD1 /* SummitSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitSeparator.swift; sourceTree = "<group>"; };
 		790AD2002DF9E43200C33CD1 /* SummitSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummitSlider.swift; sourceTree = "<group>"; };
 		790AD2012DF9E43200C33CD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -393,18 +388,26 @@
 		790AD33B2DF9E48E00C33CD1 /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
 		790AD3442DF9E4C200C33CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		790AD3452DF9E4C200C33CD1 /* KonoSummitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonoSummitUITests.swift; sourceTree = "<group>"; };
+		7951A9B62E532C85006EB0EC /* SoulverseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulverseButton.swift; sourceTree = "<group>"; };
+		7951A9B72E532C85006EB0EC /* SoulverseNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulverseNavigationView.swift; sourceTree = "<group>"; };
+		7951A9B82E532C85006EB0EC /* SoulverseTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulverseTabBar.swift; sourceTree = "<group>"; };
+		7951A9BF2E5376B5006EB0EC /* InnerCosmoViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerCosmoViewPresenter.swift; sourceTree = "<group>"; };
+		7951A9C02E5376B5006EB0EC /* InnerCosmoViewPresenterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerCosmoViewPresenterType.swift; sourceTree = "<group>"; };
+		7951A9C22E5376B5006EB0EC /* HomeItemCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemCellViewModel.swift; sourceTree = "<group>"; };
+		7951A9C32E5376B5006EB0EC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7951A9C52E5376B5006EB0EC /* InnerCosmoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerCosmoViewController.swift; sourceTree = "<group>"; };
+		7951A9D22E5376C4006EB0EC /* SoulInsightViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulInsightViewPresenter.swift; sourceTree = "<group>"; };
+		7951A9D42E5376C4006EB0EC /* FeelingPlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingPlanetViewModel.swift; sourceTree = "<group>"; };
+		7951A9D62E5376C4006EB0EC /* SoulInsightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulInsightViewController.swift; sourceTree = "<group>"; };
+		7951A9EC2E5376F3006EB0EC /* SoulQuestViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulQuestViewPresenter.swift; sourceTree = "<group>"; };
+		7951A9EE2E5376F3006EB0EC /* WallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallViewModel.swift; sourceTree = "<group>"; };
+		7951A9F02E5376F3006EB0EC /* SoulQuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulQuestViewController.swift; sourceTree = "<group>"; };
+		7951A9F92E537704006EB0EC /* ToolsViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsViewPresenter.swift; sourceTree = "<group>"; };
+		7951A9FB2E537704006EB0EC /* SeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedViewModel.swift; sourceTree = "<group>"; };
+		7951A9FD2E537704006EB0EC /* ToolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsViewController.swift; sourceTree = "<group>"; };
 		79B24C6E2DFC7B2A001220B6 /* CanvasViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewPresenter.swift; sourceTree = "<group>"; };
 		79B24C702DFC7B2A001220B6 /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
 		79B24C722DFC7B2A001220B6 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
-		79B24C882DFC7B62001220B6 /* FeelingPlanetViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingPlanetViewPresenter.swift; sourceTree = "<group>"; };
-		79B24C8A2DFC7B62001220B6 /* FeelingPlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingPlanetViewModel.swift; sourceTree = "<group>"; };
-		79B24C8C2DFC7B62001220B6 /* FeelingPlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingPlanetViewController.swift; sourceTree = "<group>"; };
-		79B24C952DFC7B76001220B6 /* SeedViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedViewPresenter.swift; sourceTree = "<group>"; };
-		79B24C972DFC7B76001220B6 /* SeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedViewModel.swift; sourceTree = "<group>"; };
-		79B24C992DFC7B76001220B6 /* SeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedViewController.swift; sourceTree = "<group>"; };
-		79B24CA22DFC7B83001220B6 /* WallViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallViewPresenter.swift; sourceTree = "<group>"; };
-		79B24CA42DFC7B83001220B6 /* WallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallViewModel.swift; sourceTree = "<group>"; };
-		79B24CA62DFC7B83001220B6 /* WallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallViewController.swift; sourceTree = "<group>"; };
 		7F38E45981F6EE680154C974 /* Pods-SoulverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoulverseTests.debug.xcconfig"; path = "Target Support Files/Pods-SoulverseTests/Pods-SoulverseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7FACD28EFD4BE804E2C92FEA /* Pods_Base_SoulverseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Base_SoulverseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B26CE50AB46FA9F2D0DF20 /* Pods-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleTests.release.xcconfig"; path = "Target Support Files/Pods-SampleTests/Pods-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -602,42 +605,6 @@
 				790AD17E2DF9E43200C33CD1 /* Views */,
 			);
 			path = ForgetPassword;
-			sourceTree = "<group>";
-		};
-		790AD1822DF9E43200C33CD1 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				790AD1802DF9E43200C33CD1 /* HomeViewPresenter.swift */,
-				790AD1812DF9E43200C33CD1 /* HomeViewPresneterType.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		790AD1852DF9E43200C33CD1 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				790AD1832DF9E43200C33CD1 /* HomeItemCellViewModel.swift */,
-				790AD1842DF9E43200C33CD1 /* HomeViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		790AD1872DF9E43200C33CD1 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				790AD1862DF9E43200C33CD1 /* HomeViewController.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		790AD1882DF9E43200C33CD1 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				790AD1822DF9E43200C33CD1 /* Presenter */,
-				790AD1852DF9E43200C33CD1 /* ViewModels */,
-				790AD1872DF9E43200C33CD1 /* Views */,
-			);
-			path = Home;
 			sourceTree = "<group>";
 		};
 		790AD18B2DF9E43200C33CD1 /* Presenter */ = {
@@ -908,11 +875,12 @@
 		790AD2032DF9E43200C33CD1 /* ViewComponent */ = {
 			isa = PBXGroup;
 			children = (
+				7951A9B62E532C85006EB0EC /* SoulverseButton.swift */,
+				7951A9B72E532C85006EB0EC /* SoulverseNavigationView.swift */,
+				7951A9B82E532C85006EB0EC /* SoulverseTabBar.swift */,
 				790AD1FA2DF9E43200C33CD1 /* GoogleSurveyViewController.swift */,
 				790AD1FB2DF9E43200C33CD1 /* SummitAlertView.swift */,
-				790AD1FC2DF9E43200C33CD1 /* SummitButton.swift */,
 				790AD1FD2DF9E43200C33CD1 /* SummitInputTextField.swift */,
-				790AD1FE2DF9E43200C33CD1 /* SummitNavigationView.swift */,
 				790AD1FF2DF9E43200C33CD1 /* SummitSeparator.swift */,
 				790AD2002DF9E43200C33CD1 /* SummitSlider.swift */,
 				790AD2012DF9E43200C33CD1 /* ViewController.swift */,
@@ -936,11 +904,11 @@
 		790AD2112DF9E43200C33CD1 /* Soulverse */ = {
 			isa = PBXGroup;
 			children = (
-				790AD1882DF9E43200C33CD1 /* Home */,
-				79B24C8E2DFC7B62001220B6 /* FeelingPlanet */,
-				79B24C9B2DFC7B76001220B6 /* Seed */,
+				7951A9C72E5376B5006EB0EC /* InnerCosmo */,
+				7951A9D82E5376C4006EB0EC /* SoulInsight */,
 				79B24C742DFC7B2A001220B6 /* Canvas */,
-				79B24CA82DFC7B83001220B6 /* Wall */,
+				7951A9FF2E537704006EB0EC /* Tools */,
+				7951A9F22E5376F3006EB0EC /* SoulQuest */,
 				790AD1922DF9E43200C33CD1 /* Login */,
 				790AD1632DF9E43200C33CD1 /* ChangePassword */,
 				790AD17F2DF9E43200C33CD1 /* ForgetPassword */,
@@ -1033,6 +1001,144 @@
 			path = SoulverseUITests;
 			sourceTree = "<group>";
 		};
+		7951A9C12E5376B5006EB0EC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9BF2E5376B5006EB0EC /* InnerCosmoViewPresenter.swift */,
+				7951A9C02E5376B5006EB0EC /* InnerCosmoViewPresenterType.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7951A9C42E5376B5006EB0EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9C22E5376B5006EB0EC /* HomeItemCellViewModel.swift */,
+				7951A9C32E5376B5006EB0EC /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7951A9C62E5376B5006EB0EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9C52E5376B5006EB0EC /* InnerCosmoViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7951A9C72E5376B5006EB0EC /* InnerCosmo */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9C12E5376B5006EB0EC /* Presenter */,
+				7951A9C42E5376B5006EB0EC /* ViewModels */,
+				7951A9C62E5376B5006EB0EC /* Views */,
+			);
+			path = InnerCosmo;
+			sourceTree = "<group>";
+		};
+		7951A9D32E5376C4006EB0EC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9D22E5376C4006EB0EC /* SoulInsightViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7951A9D52E5376C4006EB0EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9D42E5376C4006EB0EC /* FeelingPlanetViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7951A9D72E5376C4006EB0EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9D62E5376C4006EB0EC /* SoulInsightViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7951A9D82E5376C4006EB0EC /* SoulInsight */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9D32E5376C4006EB0EC /* Presenter */,
+				7951A9D52E5376C4006EB0EC /* ViewModels */,
+				7951A9D72E5376C4006EB0EC /* Views */,
+			);
+			path = SoulInsight;
+			sourceTree = "<group>";
+		};
+		7951A9ED2E5376F3006EB0EC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9EC2E5376F3006EB0EC /* SoulQuestViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7951A9EF2E5376F3006EB0EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9EE2E5376F3006EB0EC /* WallViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7951A9F12E5376F3006EB0EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9F02E5376F3006EB0EC /* SoulQuestViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7951A9F22E5376F3006EB0EC /* SoulQuest */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9ED2E5376F3006EB0EC /* Presenter */,
+				7951A9EF2E5376F3006EB0EC /* ViewModels */,
+				7951A9F12E5376F3006EB0EC /* Views */,
+			);
+			path = SoulQuest;
+			sourceTree = "<group>";
+		};
+		7951A9FA2E537704006EB0EC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9F92E537704006EB0EC /* ToolsViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7951A9FC2E537704006EB0EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9FB2E537704006EB0EC /* SeedViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7951A9FE2E537704006EB0EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9FD2E537704006EB0EC /* ToolsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7951A9FF2E537704006EB0EC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9FA2E537704006EB0EC /* Presenter */,
+				7951A9FC2E537704006EB0EC /* ViewModels */,
+				7951A9FE2E537704006EB0EC /* Views */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		79B24C6F2DFC7B2A001220B6 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -1065,108 +1171,6 @@
 				79B24C732DFC7B2A001220B6 /* Views */,
 			);
 			path = Canvas;
-			sourceTree = "<group>";
-		};
-		79B24C892DFC7B62001220B6 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				79B24C882DFC7B62001220B6 /* FeelingPlanetViewPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		79B24C8B2DFC7B62001220B6 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				79B24C8A2DFC7B62001220B6 /* FeelingPlanetViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		79B24C8D2DFC7B62001220B6 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				79B24C8C2DFC7B62001220B6 /* FeelingPlanetViewController.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		79B24C8E2DFC7B62001220B6 /* FeelingPlanet */ = {
-			isa = PBXGroup;
-			children = (
-				79B24C892DFC7B62001220B6 /* Presenter */,
-				79B24C8B2DFC7B62001220B6 /* ViewModels */,
-				79B24C8D2DFC7B62001220B6 /* Views */,
-			);
-			path = FeelingPlanet;
-			sourceTree = "<group>";
-		};
-		79B24C962DFC7B76001220B6 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				79B24C952DFC7B76001220B6 /* SeedViewPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		79B24C982DFC7B76001220B6 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				79B24C972DFC7B76001220B6 /* SeedViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		79B24C9A2DFC7B76001220B6 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				79B24C992DFC7B76001220B6 /* SeedViewController.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		79B24C9B2DFC7B76001220B6 /* Seed */ = {
-			isa = PBXGroup;
-			children = (
-				79B24C962DFC7B76001220B6 /* Presenter */,
-				79B24C982DFC7B76001220B6 /* ViewModels */,
-				79B24C9A2DFC7B76001220B6 /* Views */,
-			);
-			path = Seed;
-			sourceTree = "<group>";
-		};
-		79B24CA32DFC7B83001220B6 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				79B24CA22DFC7B83001220B6 /* WallViewPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		79B24CA52DFC7B83001220B6 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				79B24CA42DFC7B83001220B6 /* WallViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		79B24CA72DFC7B83001220B6 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				79B24CA62DFC7B83001220B6 /* WallViewController.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		79B24CA82DFC7B83001220B6 /* Wall */ = {
-			isa = PBXGroup;
-			children = (
-				79B24CA32DFC7B83001220B6 /* Presenter */,
-				79B24CA52DFC7B83001220B6 /* ViewModels */,
-				79B24CA72DFC7B83001220B6 /* Views */,
-			);
-			path = Wall;
 			sourceTree = "<group>";
 		};
 		E8A4C87226BA41130082B4F7 = {
@@ -1549,19 +1553,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				790AD2122DF9E43200C33CD1 /* CoreTracker.swift in Sources */,
-				79B24CA92DFC7B83001220B6 /* WallViewController.swift in Sources */,
-				79B24CAA2DFC7B83001220B6 /* WallViewPresenter.swift in Sources */,
-				79B24CAB2DFC7B83001220B6 /* WallViewModel.swift in Sources */,
 				790AD2132DF9E43200C33CD1 /* NotificationPresenterType.swift in Sources */,
 				790AD2142DF9E43200C33CD1 /* LoginViewPresenterType.swift in Sources */,
 				790AD2152DF9E43200C33CD1 /* NotificationItemCellViewModel.swift in Sources */,
-				79B24C9C2DFC7B76001220B6 /* SeedViewPresenter.swift in Sources */,
-				79B24C9D2DFC7B76001220B6 /* SeedViewController.swift in Sources */,
-				79B24C9E2DFC7B76001220B6 /* SeedViewModel.swift in Sources */,
+				7951A9DC2E5376C4006EB0EC /* FeelingPlanetViewModel.swift in Sources */,
+				7951A9DD2E5376C4006EB0EC /* SoulInsightViewPresenter.swift in Sources */,
+				7951A9DE2E5376C4006EB0EC /* SoulInsightViewController.swift in Sources */,
+				7951A9CD2E5376B5006EB0EC /* HomeItemCellViewModel.swift in Sources */,
+				7951A9F62E5376F3006EB0EC /* SoulQuestViewController.swift in Sources */,
+				7951A9F72E5376F3006EB0EC /* WallViewModel.swift in Sources */,
+				7951A9F82E5376F3006EB0EC /* SoulQuestViewPresenter.swift in Sources */,
+				7951A9CE2E5376B5006EB0EC /* InnerCosmoViewPresenterType.swift in Sources */,
+				7951A9CF2E5376B5006EB0EC /* InnerCosmoViewPresenter.swift in Sources */,
+				7951A9D02E5376B5006EB0EC /* HomeViewModel.swift in Sources */,
+				7951A9D12E5376B5006EB0EC /* InnerCosmoViewController.swift in Sources */,
 				790AD2162DF9E43200C33CD1 /* ErrorEvent.swift in Sources */,
 				790AD2172DF9E43200C33CD1 /* ChangePasswordCellViewModel.swift in Sources */,
 				790AD2182DF9E43200C33CD1 /* Constants.swift in Sources */,
-				790AD2192DF9E43200C33CD1 /* SummitNavigationView.swift in Sources */,
 				790AD21A2DF9E43200C33CD1 /* AppDelegate.swift in Sources */,
 				790AD21B2DF9E43200C33CD1 /* AccountEvent.swift in Sources */,
 				790AD21C2DF9E43200C33CD1 /* ChangePasswordPresenterType.swift in Sources */,
@@ -1569,15 +1577,15 @@
 				790AD21E2DF9E43200C33CD1 /* ChangePasswordViewController.swift in Sources */,
 				790AD21F2DF9E43200C33CD1 /* UIViewController+Extensions.swift in Sources */,
 				790AD2202DF9E43200C33CD1 /* UIButton+Extensions.swift in Sources */,
+				7951AA002E537704006EB0EC /* ToolsViewPresenter.swift in Sources */,
+				7951AA012E537704006EB0EC /* ToolsViewController.swift in Sources */,
+				7951AA022E537704006EB0EC /* SeedViewModel.swift in Sources */,
 				790AD2212DF9E43200C33CD1 /* WebViewController.swift in Sources */,
-				790AD2222DF9E43200C33CD1 /* HomeItemCellViewModel.swift in Sources */,
 				790AD2232DF9E43200C33CD1 /* String+Extension.swift in Sources */,
 				790AD2242DF9E43200C33CD1 /* SceneDelegate.swift in Sources */,
 				790AD2252DF9E43200C33CD1 /* Array+Extensions.swift in Sources */,
 				790AD2262DF9E43200C33CD1 /* TrackingEventType.swift in Sources */,
 				790AD2272DF9E43200C33CD1 /* ChangePasswordViewModel.swift in Sources */,
-				790AD2282DF9E43200C33CD1 /* HomeViewModel.swift in Sources */,
-				790AD2292DF9E43200C33CD1 /* HomeViewController.swift in Sources */,
 				790AD22A2DF9E43200C33CD1 /* NotificationEmptyView.swift in Sources */,
 				790AD22B2DF9E43200C33CD1 /* ProfilePresenter.swift in Sources */,
 				790AD22C2DF9E43200C33CD1 /* FBUserAuthService.swift in Sources */,
@@ -1598,9 +1606,6 @@
 				790AD23B2DF9E43200C33CD1 /* NotificationService.swift in Sources */,
 				790AD23C2DF9E43200C33CD1 /* NotificationAPIService.swift in Sources */,
 				790AD23D2DF9E43200C33CD1 /* PersonalInfoPresenter.swift in Sources */,
-				79B24C922DFC7B62001220B6 /* FeelingPlanetViewModel.swift in Sources */,
-				79B24C932DFC7B62001220B6 /* FeelingPlanetViewController.swift in Sources */,
-				79B24C942DFC7B62001220B6 /* FeelingPlanetViewPresenter.swift in Sources */,
 				790AD23E2DF9E43200C33CD1 /* UserAPIService.swift in Sources */,
 				790AD23F2DF9E43200C33CD1 /* Utility.swift in Sources */,
 				790AD2402DF9E43200C33CD1 /* ThirdPartyLoginTableViewCell.swift in Sources */,
@@ -1618,8 +1623,10 @@
 				790AD2492DF9E43200C33CD1 /* SummitTracker.swift in Sources */,
 				790AD24A2DF9E43200C33CD1 /* UITextField+Extensions.swift in Sources */,
 				790AD24B2DF9E43200C33CD1 /* ProfileViewController.swift in Sources */,
-				790AD24C2DF9E43200C33CD1 /* HomeViewPresenter.swift in Sources */,
 				790AD24D2DF9E43200C33CD1 /* KonoUserAuthService.swift in Sources */,
+				7951A9B92E532C85006EB0EC /* SoulverseButton.swift in Sources */,
+				7951A9BA2E532C85006EB0EC /* SoulverseTabBar.swift in Sources */,
+				7951A9BB2E532C85006EB0EC /* SoulverseNavigationView.swift in Sources */,
 				790AD24E2DF9E43200C33CD1 /* BugTrackingEvent.swift in Sources */,
 				790AD24F2DF9E43200C33CD1 /* AppleUserAuthService.swift in Sources */,
 				790AD2502DF9E43200C33CD1 /* UISwitch+Extensions.swift in Sources */,
@@ -1631,10 +1638,8 @@
 				790AD2572DF9E43200C33CD1 /* ForgetPasswordPresenter.swift in Sources */,
 				790AD2582DF9E43200C33CD1 /* LoginViewPresenter.swift in Sources */,
 				790AD2592DF9E43200C33CD1 /* Codable+Extensions.swift in Sources */,
-				790AD25A2DF9E43200C33CD1 /* SummitButton.swift in Sources */,
 				790AD25B2DF9E43200C33CD1 /* UITapGestureRecognizer+Extensions.swift in Sources */,
 				790AD25C2DF9E43200C33CD1 /* SummitUserModel.swift in Sources */,
-				790AD25D2DF9E43200C33CD1 /* HomeViewPresneterType.swift in Sources */,
 				790AD25E2DF9E43200C33CD1 /* NotificationItemsResponse.swift in Sources */,
 				790AD25F2DF9E43200C33CD1 /* ForgetPasswordPresenterType.swift in Sources */,
 				790AD2602DF9E43200C33CD1 /* NotificationViewModel.swift in Sources */,
@@ -1657,19 +1662,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				790AD2C02DF9E43200C33CD1 /* CoreTracker.swift in Sources */,
-				79B24CAC2DFC7B83001220B6 /* WallViewController.swift in Sources */,
-				79B24CAD2DFC7B83001220B6 /* WallViewPresenter.swift in Sources */,
-				79B24CAE2DFC7B83001220B6 /* WallViewModel.swift in Sources */,
 				790AD2C12DF9E43200C33CD1 /* NotificationPresenterType.swift in Sources */,
 				790AD2C22DF9E43200C33CD1 /* LoginViewPresenterType.swift in Sources */,
 				790AD2C32DF9E43200C33CD1 /* NotificationItemCellViewModel.swift in Sources */,
-				79B24C9F2DFC7B76001220B6 /* SeedViewPresenter.swift in Sources */,
-				79B24CA02DFC7B76001220B6 /* SeedViewController.swift in Sources */,
-				79B24CA12DFC7B76001220B6 /* SeedViewModel.swift in Sources */,
+				7951A9D92E5376C4006EB0EC /* FeelingPlanetViewModel.swift in Sources */,
+				7951A9DA2E5376C4006EB0EC /* SoulInsightViewPresenter.swift in Sources */,
+				7951A9DB2E5376C4006EB0EC /* SoulInsightViewController.swift in Sources */,
+				7951A9C82E5376B5006EB0EC /* HomeItemCellViewModel.swift in Sources */,
+				7951A9F32E5376F3006EB0EC /* SoulQuestViewController.swift in Sources */,
+				7951A9F42E5376F3006EB0EC /* WallViewModel.swift in Sources */,
+				7951A9F52E5376F3006EB0EC /* SoulQuestViewPresenter.swift in Sources */,
+				7951A9C92E5376B5006EB0EC /* InnerCosmoViewPresenterType.swift in Sources */,
+				7951A9CA2E5376B5006EB0EC /* InnerCosmoViewPresenter.swift in Sources */,
+				7951A9CB2E5376B5006EB0EC /* HomeViewModel.swift in Sources */,
+				7951A9CC2E5376B5006EB0EC /* InnerCosmoViewController.swift in Sources */,
 				790AD2C42DF9E43200C33CD1 /* ErrorEvent.swift in Sources */,
 				790AD2C52DF9E43200C33CD1 /* ChangePasswordCellViewModel.swift in Sources */,
 				790AD2C62DF9E43200C33CD1 /* Constants.swift in Sources */,
-				790AD2C72DF9E43200C33CD1 /* SummitNavigationView.swift in Sources */,
 				790AD2C82DF9E43200C33CD1 /* AppDelegate.swift in Sources */,
 				790AD2C92DF9E43200C33CD1 /* AccountEvent.swift in Sources */,
 				790AD2CA2DF9E43200C33CD1 /* ChangePasswordPresenterType.swift in Sources */,
@@ -1677,15 +1686,15 @@
 				790AD2CC2DF9E43200C33CD1 /* ChangePasswordViewController.swift in Sources */,
 				790AD2CD2DF9E43200C33CD1 /* UIViewController+Extensions.swift in Sources */,
 				790AD2CE2DF9E43200C33CD1 /* UIButton+Extensions.swift in Sources */,
+				7951AA032E537704006EB0EC /* ToolsViewPresenter.swift in Sources */,
+				7951AA042E537704006EB0EC /* ToolsViewController.swift in Sources */,
+				7951AA052E537704006EB0EC /* SeedViewModel.swift in Sources */,
 				790AD2CF2DF9E43200C33CD1 /* WebViewController.swift in Sources */,
-				790AD2D02DF9E43200C33CD1 /* HomeItemCellViewModel.swift in Sources */,
 				790AD2D12DF9E43200C33CD1 /* String+Extension.swift in Sources */,
 				790AD2D22DF9E43200C33CD1 /* SceneDelegate.swift in Sources */,
 				790AD2D32DF9E43200C33CD1 /* Array+Extensions.swift in Sources */,
 				790AD2D42DF9E43200C33CD1 /* TrackingEventType.swift in Sources */,
 				790AD2D52DF9E43200C33CD1 /* ChangePasswordViewModel.swift in Sources */,
-				790AD2D62DF9E43200C33CD1 /* HomeViewModel.swift in Sources */,
-				790AD2D72DF9E43200C33CD1 /* HomeViewController.swift in Sources */,
 				790AD2D82DF9E43200C33CD1 /* NotificationEmptyView.swift in Sources */,
 				790AD2D92DF9E43200C33CD1 /* ProfilePresenter.swift in Sources */,
 				790AD2DA2DF9E43200C33CD1 /* FBUserAuthService.swift in Sources */,
@@ -1706,9 +1715,6 @@
 				790AD2E92DF9E43200C33CD1 /* NotificationService.swift in Sources */,
 				790AD2EA2DF9E43200C33CD1 /* NotificationAPIService.swift in Sources */,
 				790AD2EB2DF9E43200C33CD1 /* PersonalInfoPresenter.swift in Sources */,
-				79B24C8F2DFC7B62001220B6 /* FeelingPlanetViewModel.swift in Sources */,
-				79B24C902DFC7B62001220B6 /* FeelingPlanetViewController.swift in Sources */,
-				79B24C912DFC7B62001220B6 /* FeelingPlanetViewPresenter.swift in Sources */,
 				790AD2EC2DF9E43200C33CD1 /* UserAPIService.swift in Sources */,
 				790AD2ED2DF9E43200C33CD1 /* Utility.swift in Sources */,
 				790AD2EE2DF9E43200C33CD1 /* ThirdPartyLoginTableViewCell.swift in Sources */,
@@ -1726,8 +1732,10 @@
 				790AD2F72DF9E43200C33CD1 /* SummitTracker.swift in Sources */,
 				790AD2F82DF9E43200C33CD1 /* UITextField+Extensions.swift in Sources */,
 				790AD2F92DF9E43200C33CD1 /* ProfileViewController.swift in Sources */,
-				790AD2FA2DF9E43200C33CD1 /* HomeViewPresenter.swift in Sources */,
 				790AD2FB2DF9E43200C33CD1 /* KonoUserAuthService.swift in Sources */,
+				7951A9BC2E532C85006EB0EC /* SoulverseButton.swift in Sources */,
+				7951A9BD2E532C85006EB0EC /* SoulverseTabBar.swift in Sources */,
+				7951A9BE2E532C85006EB0EC /* SoulverseNavigationView.swift in Sources */,
 				790AD2FC2DF9E43200C33CD1 /* BugTrackingEvent.swift in Sources */,
 				790AD2FD2DF9E43200C33CD1 /* AppleUserAuthService.swift in Sources */,
 				790AD2FE2DF9E43200C33CD1 /* UISwitch+Extensions.swift in Sources */,
@@ -1739,10 +1747,8 @@
 				790AD3052DF9E43200C33CD1 /* ForgetPasswordPresenter.swift in Sources */,
 				790AD3062DF9E43200C33CD1 /* LoginViewPresenter.swift in Sources */,
 				790AD3072DF9E43200C33CD1 /* Codable+Extensions.swift in Sources */,
-				790AD3082DF9E43200C33CD1 /* SummitButton.swift in Sources */,
 				790AD3092DF9E43200C33CD1 /* UITapGestureRecognizer+Extensions.swift in Sources */,
 				790AD30A2DF9E43200C33CD1 /* SummitUserModel.swift in Sources */,
-				790AD30B2DF9E43200C33CD1 /* HomeViewPresneterType.swift in Sources */,
 				790AD30C2DF9E43200C33CD1 /* NotificationItemsResponse.swift in Sources */,
 				790AD30D2DF9E43200C33CD1 /* ForgetPasswordPresenterType.swift in Sources */,
 				790AD30E2DF9E43200C33CD1 /* NotificationViewModel.swift in Sources */,

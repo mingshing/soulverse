@@ -1,10 +1,10 @@
 //
-//  SeedViewController.swift
+//  SoulQuestViewController.swift
 //
 
 import UIKit
 
-class SeedViewController: ViewController {
+class SoulQuestViewController: ViewController {
     private lazy var tableView: UITableView = { [weak self] in
         let table = UITableView(frame: .zero, style: .grouped)
         table.backgroundColor = .clear
@@ -16,10 +16,10 @@ class SeedViewController: ViewController {
         table.refreshControl?.addTarget(self, action: #selector(pullToRefresh), for: .valueChanged)
         return table
     }()
-    private let presenter = SeedViewPresenter()
+    private let presenter = SoulQuestViewPresenter()
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = NSLocalizedString("Seed", comment: "")
+        title = NSLocalizedString("soul_quest", comment: "")
         setupView()
         setupPresenter()
     }
@@ -56,7 +56,7 @@ class SeedViewController: ViewController {
         }
     }
 }
-extension SeedViewController: UITableViewDataSource, UITableViewDelegate {
+extension SoulQuestViewController: UITableViewDataSource, UITableViewDelegate {
     private func getSectionHeaderView(title: String, bottomPadding: CGFloat = 10) -> UIView {
         let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
         let headerView = UIView()
@@ -93,8 +93,8 @@ extension SeedViewController: UITableViewDataSource, UITableViewDelegate {
         return UITableViewCell()
     }
 }
-extension SeedViewController: SeedViewPresenterDelegate {
-    func didUpdate(viewModel: SeedViewModel) {
+extension SoulQuestViewController: SoulQuestViewPresenterDelegate {
+    func didUpdate(viewModel: SoulQuestViewModel) {
         DispatchQueue.main.async { [weak self] in
             guard let weakSelf = self else { return }
             weakSelf.showLoading = viewModel.isLoading
@@ -112,7 +112,7 @@ extension SeedViewController: SeedViewPresenterDelegate {
         }
     }
 }
-extension SeedViewController: UIGestureRecognizerDelegate {
+extension SoulQuestViewController: UIGestureRecognizerDelegate {
     func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
     }

@@ -1,20 +1,20 @@
 //
-//  SummitLeftImageButton.swift
-//  KonoSummit
+//  SoulverseButton.swift
+//  Soulverse
 //
 //  Created by mingshing on 2021/12/10.
 //
 
 import Foundation
 import UIKit
-protocol SummitButtonDelegate: AnyObject {
+protocol SoulverseButtonDelegate: AnyObject {
     
-    func clickSummitButton (_ button: SummitButton)
+    func clickSoulverseButton (_ button: SoulverseButton)
 }
 
-class SummitButton: UIView {
+class SoulverseButton: UIView {
     
-    weak var delegate: SummitButtonDelegate?
+    weak var delegate: SoulverseButtonDelegate?
     
     private let titleLabel: UILabel = {
         let titleLabel = UILabel()
@@ -41,7 +41,7 @@ class SummitButton: UIView {
         }
     }
     
-    init(title: String = "", image: UIImage?, delegate: SummitButtonDelegate? = nil) {
+    init(title: String = "", image: UIImage?, delegate: SoulverseButtonDelegate? = nil) {
         self.titleText = title
         self.buttonImage = image
         self.delegate = delegate
@@ -80,7 +80,7 @@ class SummitButton: UIView {
     }
     
     @objc private func didTapButton() {
-        delegate?.clickSummitButton(self)
+        delegate?.clickSoulverseButton(self)
     }
     
 }

@@ -1,22 +1,22 @@
 //
-//  FeelingPlanetViewPresenter.swift
+//  SoulInsightViewPresenter.swift
 //
 
 import Foundation
 
-protocol FeelingPlanetViewPresenterDelegate: AnyObject {
+protocol SoulInsightViewPresenterDelegate: AnyObject {
     func didUpdate(viewModel: FeelingPlanetViewModel)
     func didUpdateSection(at index: IndexSet)
 }
 
-protocol FeelingPlanetViewPresenterType: AnyObject {
-    var delegate: FeelingPlanetViewPresenterDelegate? { get set }
+protocol SoulInsightViewPresenterType: AnyObject {
+    var delegate: SoulInsightViewPresenterDelegate? { get set }
     func fetchData(isUpdate: Bool)
     func numberOfSectionsOnTableView() -> Int
 }
 
-class FeelingPlanetViewPresenter: FeelingPlanetViewPresenterType {
-    weak var delegate: FeelingPlanetViewPresenterDelegate?
+class SoulInsightViewPresenter: SoulInsightViewPresenterType {
+    weak var delegate: SoulInsightViewPresenterDelegate?
     private var loadedModel: FeelingPlanetViewModel = FeelingPlanetViewModel(isLoading: false) {
         didSet {
             delegate?.didUpdate(viewModel: loadedModel)

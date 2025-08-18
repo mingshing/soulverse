@@ -10,8 +10,8 @@ import WebKit
 
 class WebViewController: ViewController, WKUIDelegate, WKNavigationDelegate {
 
-    private lazy var navigationBar: SummitNavigationView = {
-        let navigationBar = SummitNavigationView(title: pageTitle)
+    private lazy var navigationBar: SoulverseNavigationView = {
+        let navigationBar = SoulverseNavigationView(title: pageTitle)
         navigationBar.delegate = self
         return navigationBar
     }()
