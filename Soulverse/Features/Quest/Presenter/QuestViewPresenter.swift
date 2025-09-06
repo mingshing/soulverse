@@ -1,23 +1,23 @@
 //
-//  SoulQuestViewPresenter.swift
+//  QuestViewPresenter.swift
 //
 
 import Foundation
 
-protocol SoulQuestViewPresenterDelegate: AnyObject {
-    func didUpdate(viewModel: SoulQuestViewModel)
+protocol QuestViewPresenterDelegate: AnyObject {
+    func didUpdate(viewModel: QuestViewModel)
     func didUpdateSection(at index: IndexSet)
 }
 
-protocol SoulQuestViewPresenterType: AnyObject {
-    var delegate: SoulQuestViewPresenterDelegate? { get set }
+protocol QuestViewPresenterType: AnyObject {
+    var delegate: QuestViewPresenterDelegate? { get set }
     func fetchData(isUpdate: Bool)
     func numberOfSectionsOnTableView() -> Int
 }
 
-class SoulQuestViewPresenter: SoulQuestViewPresenterType {
-    weak var delegate: SoulQuestViewPresenterDelegate?
-    private var loadedModel: SoulQuestViewModel = SoulQuestViewModel(isLoading: false) {
+class QuestViewPresenter: QuestViewPresenterType {
+    weak var delegate: QuestViewPresenterDelegate?
+    private var loadedModel: QuestViewModel = QuestViewModel(isLoading: false) {
         didSet {
             delegate?.didUpdate(viewModel: loadedModel)
         }

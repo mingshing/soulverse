@@ -205,24 +205,24 @@
 		7951A9CF2E5376B5006EB0EC /* InnerCosmoViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9BF2E5376B5006EB0EC /* InnerCosmoViewPresenter.swift */; };
 		7951A9D02E5376B5006EB0EC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9C32E5376B5006EB0EC /* HomeViewModel.swift */; };
 		7951A9D12E5376B5006EB0EC /* InnerCosmoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9C52E5376B5006EB0EC /* InnerCosmoViewController.swift */; };
-		7951A9D92E5376C4006EB0EC /* FeelingPlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9D42E5376C4006EB0EC /* FeelingPlanetViewModel.swift */; };
-		7951A9DA2E5376C4006EB0EC /* SoulInsightViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9D22E5376C4006EB0EC /* SoulInsightViewPresenter.swift */; };
-		7951A9DB2E5376C4006EB0EC /* SoulInsightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9D62E5376C4006EB0EC /* SoulInsightViewController.swift */; };
-		7951A9DC2E5376C4006EB0EC /* FeelingPlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9D42E5376C4006EB0EC /* FeelingPlanetViewModel.swift */; };
-		7951A9DD2E5376C4006EB0EC /* SoulInsightViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9D22E5376C4006EB0EC /* SoulInsightViewPresenter.swift */; };
-		7951A9DE2E5376C4006EB0EC /* SoulInsightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9D62E5376C4006EB0EC /* SoulInsightViewController.swift */; };
-		7951A9F32E5376F3006EB0EC /* SoulQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9F02E5376F3006EB0EC /* SoulQuestViewController.swift */; };
-		7951A9F42E5376F3006EB0EC /* WallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9EE2E5376F3006EB0EC /* WallViewModel.swift */; };
-		7951A9F52E5376F3006EB0EC /* SoulQuestViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9EC2E5376F3006EB0EC /* SoulQuestViewPresenter.swift */; };
-		7951A9F62E5376F3006EB0EC /* SoulQuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9F02E5376F3006EB0EC /* SoulQuestViewController.swift */; };
-		7951A9F72E5376F3006EB0EC /* WallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9EE2E5376F3006EB0EC /* WallViewModel.swift */; };
-		7951A9F82E5376F3006EB0EC /* SoulQuestViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9EC2E5376F3006EB0EC /* SoulQuestViewPresenter.swift */; };
 		7951AA002E537704006EB0EC /* ToolsViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9F92E537704006EB0EC /* ToolsViewPresenter.swift */; };
 		7951AA012E537704006EB0EC /* ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9FD2E537704006EB0EC /* ToolsViewController.swift */; };
 		7951AA022E537704006EB0EC /* SeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9FB2E537704006EB0EC /* SeedViewModel.swift */; };
 		7951AA032E537704006EB0EC /* ToolsViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9F92E537704006EB0EC /* ToolsViewPresenter.swift */; };
 		7951AA042E537704006EB0EC /* ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9FD2E537704006EB0EC /* ToolsViewController.swift */; };
 		7951AA052E537704006EB0EC /* SeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951A9FB2E537704006EB0EC /* SeedViewModel.swift */; };
+		798687EE2E6C248E00EB3B38 /* InsightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798687E92E6C248E00EB3B38 /* InsightViewModel.swift */; };
+		798687EF2E6C248E00EB3B38 /* InsightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798687EB2E6C248E00EB3B38 /* InsightViewController.swift */; };
+		798687F02E6C248E00EB3B38 /* InsightViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798687E72E6C248E00EB3B38 /* InsightViewPresenter.swift */; };
+		798687F12E6C248E00EB3B38 /* InsightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798687E92E6C248E00EB3B38 /* InsightViewModel.swift */; };
+		798687F22E6C248E00EB3B38 /* InsightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798687EB2E6C248E00EB3B38 /* InsightViewController.swift */; };
+		798687F32E6C248E00EB3B38 /* InsightViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798687E72E6C248E00EB3B38 /* InsightViewPresenter.swift */; };
+		798688082E6C24EE00EB3B38 /* QuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798688052E6C24EE00EB3B38 /* QuestViewController.swift */; };
+		798688092E6C24EE00EB3B38 /* QuestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798688032E6C24EE00EB3B38 /* QuestViewModel.swift */; };
+		7986880A2E6C24EE00EB3B38 /* QuestViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798688012E6C24EE00EB3B38 /* QuestViewPresenter.swift */; };
+		7986880B2E6C24EE00EB3B38 /* QuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798688052E6C24EE00EB3B38 /* QuestViewController.swift */; };
+		7986880C2E6C24EE00EB3B38 /* QuestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798688032E6C24EE00EB3B38 /* QuestViewModel.swift */; };
+		7986880D2E6C24EE00EB3B38 /* QuestViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798688012E6C24EE00EB3B38 /* QuestViewPresenter.swift */; };
 		79B24C752DFC7B2A001220B6 /* CanvasViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C6E2DFC7B2A001220B6 /* CanvasViewPresenter.swift */; };
 		79B24C762DFC7B2A001220B6 /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C702DFC7B2A001220B6 /* CanvasViewModel.swift */; };
 		79B24C772DFC7B2A001220B6 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B24C722DFC7B2A001220B6 /* CanvasViewController.swift */; };
@@ -396,15 +396,15 @@
 		7951A9C22E5376B5006EB0EC /* HomeItemCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItemCellViewModel.swift; sourceTree = "<group>"; };
 		7951A9C32E5376B5006EB0EC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		7951A9C52E5376B5006EB0EC /* InnerCosmoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerCosmoViewController.swift; sourceTree = "<group>"; };
-		7951A9D22E5376C4006EB0EC /* SoulInsightViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulInsightViewPresenter.swift; sourceTree = "<group>"; };
-		7951A9D42E5376C4006EB0EC /* FeelingPlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingPlanetViewModel.swift; sourceTree = "<group>"; };
-		7951A9D62E5376C4006EB0EC /* SoulInsightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulInsightViewController.swift; sourceTree = "<group>"; };
-		7951A9EC2E5376F3006EB0EC /* SoulQuestViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulQuestViewPresenter.swift; sourceTree = "<group>"; };
-		7951A9EE2E5376F3006EB0EC /* WallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallViewModel.swift; sourceTree = "<group>"; };
-		7951A9F02E5376F3006EB0EC /* SoulQuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoulQuestViewController.swift; sourceTree = "<group>"; };
 		7951A9F92E537704006EB0EC /* ToolsViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsViewPresenter.swift; sourceTree = "<group>"; };
 		7951A9FB2E537704006EB0EC /* SeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedViewModel.swift; sourceTree = "<group>"; };
 		7951A9FD2E537704006EB0EC /* ToolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsViewController.swift; sourceTree = "<group>"; };
+		798687E72E6C248E00EB3B38 /* InsightViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightViewPresenter.swift; sourceTree = "<group>"; };
+		798687E92E6C248E00EB3B38 /* InsightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightViewModel.swift; sourceTree = "<group>"; };
+		798687EB2E6C248E00EB3B38 /* InsightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightViewController.swift; sourceTree = "<group>"; };
+		798688012E6C24EE00EB3B38 /* QuestViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewPresenter.swift; sourceTree = "<group>"; };
+		798688032E6C24EE00EB3B38 /* QuestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewModel.swift; sourceTree = "<group>"; };
+		798688052E6C24EE00EB3B38 /* QuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewController.swift; sourceTree = "<group>"; };
 		79B24C6E2DFC7B2A001220B6 /* CanvasViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewPresenter.swift; sourceTree = "<group>"; };
 		79B24C702DFC7B2A001220B6 /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
 		79B24C722DFC7B2A001220B6 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
@@ -896,6 +896,7 @@
 				790AD1E82DF9E43200C33CD1 /* Manager */,
 				790AD1F92DF9E43200C33CD1 /* Service */,
 				790AD2032DF9E43200C33CD1 /* ViewComponent */,
+				790AD2072DF9E43200C33CD1 /* Constants.swift */,
 				790AD2042DF9E43200C33CD1 /* Utility.swift */,
 			);
 			path = Shared;
@@ -904,24 +905,19 @@
 		790AD2112DF9E43200C33CD1 /* Soulverse */ = {
 			isa = PBXGroup;
 			children = (
-				7951A9C72E5376B5006EB0EC /* InnerCosmo */,
-				7951A9D82E5376C4006EB0EC /* SoulInsight */,
-				79B24C742DFC7B2A001220B6 /* Canvas */,
-				7951A9FF2E537704006EB0EC /* Tools */,
-				7951A9F22E5376F3006EB0EC /* SoulQuest */,
+				790AD2082DF9E43200C33CD1 /* Info.plist */,
+				790AD2062DF9E43200C33CD1 /* AppDelegate.swift */,
+				7986880E2E6C251F00EB3B38 /* Features */,
 				790AD1922DF9E43200C33CD1 /* Login */,
 				790AD1632DF9E43200C33CD1 /* ChangePassword */,
 				790AD17F2DF9E43200C33CD1 /* ForgetPassword */,
-				790AD1772DF9E43200C33CD1 /* Extensions */,
 				790AD1A02DF9E43200C33CD1 /* Notification */,
 				790AD1AA2DF9E43200C33CD1 /* PersonalInfo */,
 				790AD1B32DF9E43200C33CD1 /* Profile */,
 				790AD1952DF9E43200C33CD1 /* Main */,
+				790AD1772DF9E43200C33CD1 /* Extensions */,
 				790AD1DA2DF9E43200C33CD1 /* Resources */,
 				790AD2052DF9E43200C33CD1 /* Shared */,
-				790AD2062DF9E43200C33CD1 /* AppDelegate.swift */,
-				790AD2072DF9E43200C33CD1 /* Constants.swift */,
-				790AD2082DF9E43200C33CD1 /* Info.plist */,
 				790AD20A2DF9E43200C33CD1 /* LaunchScreen.storyboard */,
 				790AD20D2DF9E43200C33CD1 /* Localizable.strings */,
 				790AD20E2DF9E43200C33CD1 /* Main.storyboard */,
@@ -1037,74 +1033,6 @@
 			path = InnerCosmo;
 			sourceTree = "<group>";
 		};
-		7951A9D32E5376C4006EB0EC /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				7951A9D22E5376C4006EB0EC /* SoulInsightViewPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		7951A9D52E5376C4006EB0EC /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				7951A9D42E5376C4006EB0EC /* FeelingPlanetViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		7951A9D72E5376C4006EB0EC /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				7951A9D62E5376C4006EB0EC /* SoulInsightViewController.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		7951A9D82E5376C4006EB0EC /* SoulInsight */ = {
-			isa = PBXGroup;
-			children = (
-				7951A9D32E5376C4006EB0EC /* Presenter */,
-				7951A9D52E5376C4006EB0EC /* ViewModels */,
-				7951A9D72E5376C4006EB0EC /* Views */,
-			);
-			path = SoulInsight;
-			sourceTree = "<group>";
-		};
-		7951A9ED2E5376F3006EB0EC /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				7951A9EC2E5376F3006EB0EC /* SoulQuestViewPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		7951A9EF2E5376F3006EB0EC /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				7951A9EE2E5376F3006EB0EC /* WallViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		7951A9F12E5376F3006EB0EC /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				7951A9F02E5376F3006EB0EC /* SoulQuestViewController.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		7951A9F22E5376F3006EB0EC /* SoulQuest */ = {
-			isa = PBXGroup;
-			children = (
-				7951A9ED2E5376F3006EB0EC /* Presenter */,
-				7951A9EF2E5376F3006EB0EC /* ViewModels */,
-				7951A9F12E5376F3006EB0EC /* Views */,
-			);
-			path = SoulQuest;
-			sourceTree = "<group>";
-		};
 		7951A9FA2E537704006EB0EC /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -1137,6 +1065,86 @@
 				7951A9FE2E537704006EB0EC /* Views */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		798687E82E6C248E00EB3B38 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				798687E72E6C248E00EB3B38 /* InsightViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		798687EA2E6C248E00EB3B38 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				798687E92E6C248E00EB3B38 /* InsightViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		798687EC2E6C248E00EB3B38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				798687EB2E6C248E00EB3B38 /* InsightViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		798687ED2E6C248E00EB3B38 /* Insight */ = {
+			isa = PBXGroup;
+			children = (
+				798687E82E6C248E00EB3B38 /* Presenter */,
+				798687EA2E6C248E00EB3B38 /* ViewModels */,
+				798687EC2E6C248E00EB3B38 /* Views */,
+			);
+			path = Insight;
+			sourceTree = "<group>";
+		};
+		798688022E6C24EE00EB3B38 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				798688012E6C24EE00EB3B38 /* QuestViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		798688042E6C24EE00EB3B38 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				798688032E6C24EE00EB3B38 /* QuestViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		798688062E6C24EE00EB3B38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				798688052E6C24EE00EB3B38 /* QuestViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		798688072E6C24EE00EB3B38 /* Quest */ = {
+			isa = PBXGroup;
+			children = (
+				798688022E6C24EE00EB3B38 /* Presenter */,
+				798688042E6C24EE00EB3B38 /* ViewModels */,
+				798688062E6C24EE00EB3B38 /* Views */,
+			);
+			path = Quest;
+			sourceTree = "<group>";
+		};
+		7986880E2E6C251F00EB3B38 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7951A9C72E5376B5006EB0EC /* InnerCosmo */,
+				798687ED2E6C248E00EB3B38 /* Insight */,
+				79B24C742DFC7B2A001220B6 /* Canvas */,
+				7951A9FF2E537704006EB0EC /* Tools */,
+				798688072E6C24EE00EB3B38 /* Quest */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 		79B24C6F2DFC7B2A001220B6 /* Presenter */ = {
@@ -1556,13 +1564,7 @@
 				790AD2132DF9E43200C33CD1 /* NotificationPresenterType.swift in Sources */,
 				790AD2142DF9E43200C33CD1 /* LoginViewPresenterType.swift in Sources */,
 				790AD2152DF9E43200C33CD1 /* NotificationItemCellViewModel.swift in Sources */,
-				7951A9DC2E5376C4006EB0EC /* FeelingPlanetViewModel.swift in Sources */,
-				7951A9DD2E5376C4006EB0EC /* SoulInsightViewPresenter.swift in Sources */,
-				7951A9DE2E5376C4006EB0EC /* SoulInsightViewController.swift in Sources */,
 				7951A9CD2E5376B5006EB0EC /* HomeItemCellViewModel.swift in Sources */,
-				7951A9F62E5376F3006EB0EC /* SoulQuestViewController.swift in Sources */,
-				7951A9F72E5376F3006EB0EC /* WallViewModel.swift in Sources */,
-				7951A9F82E5376F3006EB0EC /* SoulQuestViewPresenter.swift in Sources */,
 				7951A9CE2E5376B5006EB0EC /* InnerCosmoViewPresenterType.swift in Sources */,
 				7951A9CF2E5376B5006EB0EC /* InnerCosmoViewPresenter.swift in Sources */,
 				7951A9D02E5376B5006EB0EC /* HomeViewModel.swift in Sources */,
@@ -1571,6 +1573,9 @@
 				790AD2172DF9E43200C33CD1 /* ChangePasswordCellViewModel.swift in Sources */,
 				790AD2182DF9E43200C33CD1 /* Constants.swift in Sources */,
 				790AD21A2DF9E43200C33CD1 /* AppDelegate.swift in Sources */,
+				798687F12E6C248E00EB3B38 /* InsightViewModel.swift in Sources */,
+				798687F22E6C248E00EB3B38 /* InsightViewController.swift in Sources */,
+				798687F32E6C248E00EB3B38 /* InsightViewPresenter.swift in Sources */,
 				790AD21B2DF9E43200C33CD1 /* AccountEvent.swift in Sources */,
 				790AD21C2DF9E43200C33CD1 /* ChangePasswordPresenterType.swift in Sources */,
 				790AD21D2DF9E43200C33CD1 /* SummitSeparator.swift in Sources */,
@@ -1625,6 +1630,9 @@
 				790AD24B2DF9E43200C33CD1 /* ProfileViewController.swift in Sources */,
 				790AD24D2DF9E43200C33CD1 /* KonoUserAuthService.swift in Sources */,
 				7951A9B92E532C85006EB0EC /* SoulverseButton.swift in Sources */,
+				7986880B2E6C24EE00EB3B38 /* QuestViewController.swift in Sources */,
+				7986880C2E6C24EE00EB3B38 /* QuestViewModel.swift in Sources */,
+				7986880D2E6C24EE00EB3B38 /* QuestViewPresenter.swift in Sources */,
 				7951A9BA2E532C85006EB0EC /* SoulverseTabBar.swift in Sources */,
 				7951A9BB2E532C85006EB0EC /* SoulverseNavigationView.swift in Sources */,
 				790AD24E2DF9E43200C33CD1 /* BugTrackingEvent.swift in Sources */,
@@ -1665,13 +1673,7 @@
 				790AD2C12DF9E43200C33CD1 /* NotificationPresenterType.swift in Sources */,
 				790AD2C22DF9E43200C33CD1 /* LoginViewPresenterType.swift in Sources */,
 				790AD2C32DF9E43200C33CD1 /* NotificationItemCellViewModel.swift in Sources */,
-				7951A9D92E5376C4006EB0EC /* FeelingPlanetViewModel.swift in Sources */,
-				7951A9DA2E5376C4006EB0EC /* SoulInsightViewPresenter.swift in Sources */,
-				7951A9DB2E5376C4006EB0EC /* SoulInsightViewController.swift in Sources */,
 				7951A9C82E5376B5006EB0EC /* HomeItemCellViewModel.swift in Sources */,
-				7951A9F32E5376F3006EB0EC /* SoulQuestViewController.swift in Sources */,
-				7951A9F42E5376F3006EB0EC /* WallViewModel.swift in Sources */,
-				7951A9F52E5376F3006EB0EC /* SoulQuestViewPresenter.swift in Sources */,
 				7951A9C92E5376B5006EB0EC /* InnerCosmoViewPresenterType.swift in Sources */,
 				7951A9CA2E5376B5006EB0EC /* InnerCosmoViewPresenter.swift in Sources */,
 				7951A9CB2E5376B5006EB0EC /* HomeViewModel.swift in Sources */,
@@ -1680,6 +1682,9 @@
 				790AD2C52DF9E43200C33CD1 /* ChangePasswordCellViewModel.swift in Sources */,
 				790AD2C62DF9E43200C33CD1 /* Constants.swift in Sources */,
 				790AD2C82DF9E43200C33CD1 /* AppDelegate.swift in Sources */,
+				798687EE2E6C248E00EB3B38 /* InsightViewModel.swift in Sources */,
+				798687EF2E6C248E00EB3B38 /* InsightViewController.swift in Sources */,
+				798687F02E6C248E00EB3B38 /* InsightViewPresenter.swift in Sources */,
 				790AD2C92DF9E43200C33CD1 /* AccountEvent.swift in Sources */,
 				790AD2CA2DF9E43200C33CD1 /* ChangePasswordPresenterType.swift in Sources */,
 				790AD2CB2DF9E43200C33CD1 /* SummitSeparator.swift in Sources */,
@@ -1734,6 +1739,9 @@
 				790AD2F92DF9E43200C33CD1 /* ProfileViewController.swift in Sources */,
 				790AD2FB2DF9E43200C33CD1 /* KonoUserAuthService.swift in Sources */,
 				7951A9BC2E532C85006EB0EC /* SoulverseButton.swift in Sources */,
+				798688082E6C24EE00EB3B38 /* QuestViewController.swift in Sources */,
+				798688092E6C24EE00EB3B38 /* QuestViewModel.swift in Sources */,
+				7986880A2E6C24EE00EB3B38 /* QuestViewPresenter.swift in Sources */,
 				7951A9BD2E532C85006EB0EC /* SoulverseTabBar.swift in Sources */,
 				7951A9BE2E532C85006EB0EC /* SoulverseNavigationView.swift in Sources */,
 				790AD2FC2DF9E43200C33CD1 /* BugTrackingEvent.swift in Sources */,

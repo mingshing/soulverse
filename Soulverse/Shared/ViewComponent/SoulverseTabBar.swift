@@ -13,23 +13,23 @@ protocol SoulverseTabBarDelegate: AnyObject {
 
 enum SoulverseTab: Int, CaseIterable {
     case innerCosmo = 0
-    case soulInsight
+    case insight
     case canvas
     case tools
-    case soulQuest
+    case quest
     
     var viewController: UIViewController {
         switch self {
         case .innerCosmo:
             return InnerCosmoViewController() // Inner Cosmo (was Home)
-        case .soulInsight:
-            return SoulInsightViewController() // Soul Insight (was FeelingPlanet)
+        case .insight:
+            return InsightViewController() // Insight (was FeelingPlanet)
         case .canvas:
             return CanvasViewController() // Canvas stays the same
         case .tools:
             return ToolsViewController() // Tools (was Seed)
-        case .soulQuest:
-            return SoulQuestViewController() // Soul Quest (was Wall)
+        case .quest:
+            return QuestViewController() // Quest (was Wall)
         }
     }
     
@@ -37,14 +37,14 @@ enum SoulverseTab: Int, CaseIterable {
         switch self {
         case .innerCosmo:
             return NSLocalizedString("inner_cosmo", comment: "")
-        case .soulInsight:
-            return NSLocalizedString("soul_insight", comment: "")
+        case .insight:
+            return NSLocalizedString("insight", comment: "")
         case .canvas:
             return NSLocalizedString("canvas", comment: "")
         case .tools:
             return NSLocalizedString("tools", comment: "")
-        case .soulQuest:
-            return NSLocalizedString("soul_quest", comment: "")
+        case .quest:
+            return NSLocalizedString("quest", comment: "")
         }
     }
     
@@ -52,14 +52,14 @@ enum SoulverseTab: Int, CaseIterable {
         switch self {
         case .innerCosmo:
             return UIImage(named: "tabiconHomeOutline") // Inner Cosmo (was Home)
-        case .soulInsight:
-            return UIImage(named: "tabiconPlanetFilled") // Soul Insight (was FeelingPlanet)
+        case .insight:
+            return UIImage(named: "tabiconPlanetFilled") // Insight (was FeelingPlanet)
         case .canvas:
             return UIImage(named: "tabiconCanvasFilled") // Canvas stays the same
         case .tools:
             return UIImage(named: "tabiconSeedFilled") // Tools (was Seed)
-        case .soulQuest:
-            return UIImage(named: "tabiconWallFilled") // Soul Quest (was Wall)
+        case .quest:
+            return UIImage(named: "tabiconWallFilled") // Quest (was Wall)
         }
     }
     
@@ -67,14 +67,14 @@ enum SoulverseTab: Int, CaseIterable {
         switch self {
         case .innerCosmo:
             return UIImage(named: "tabiconHomeFilled")?.withRenderingMode(.alwaysOriginal) // Inner Cosmo
-        case .soulInsight:
-            return UIImage(named: "tabiconPlanetFilled")?.withRenderingMode(.alwaysOriginal) // Soul Insight
+        case .insight:
+            return UIImage(named: "tabiconPlanetFilled")?.withRenderingMode(.alwaysOriginal) // Insight
         case .canvas:
             return UIImage(named: "tabiconCanvasFilled")?.withRenderingMode(.alwaysOriginal) // Canvas
         case .tools:
             return UIImage(named: "tabiconSeedFilled")?.withRenderingMode(.alwaysOriginal) // Tools
-        case .soulQuest:
-            return UIImage(named: "tabiconWallFilled")?.withRenderingMode(.alwaysOriginal) // Soul Quest
+        case .quest:
+            return UIImage(named: "tabiconWallFilled")?.withRenderingMode(.alwaysOriginal) // Quest
         }
     }
 }

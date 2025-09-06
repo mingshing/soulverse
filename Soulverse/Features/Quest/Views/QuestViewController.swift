@@ -1,10 +1,10 @@
 //
-//  SoulQuestViewController.swift
+//  QuestViewController.swift
 //
 
 import UIKit
 
-class SoulQuestViewController: ViewController {
+class QuestViewController: ViewController {
     private lazy var tableView: UITableView = { [weak self] in
         let table = UITableView(frame: .zero, style: .grouped)
         table.backgroundColor = .clear
@@ -16,10 +16,10 @@ class SoulQuestViewController: ViewController {
         table.refreshControl?.addTarget(self, action: #selector(pullToRefresh), for: .valueChanged)
         return table
     }()
-    private let presenter = SoulQuestViewPresenter()
+    private let presenter = QuestViewPresenter()
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = NSLocalizedString("soul_quest", comment: "")
+        title = NSLocalizedString("quest", comment: "")
         setupView()
         setupPresenter()
     }
@@ -56,7 +56,7 @@ class SoulQuestViewController: ViewController {
         }
     }
 }
-extension SoulQuestViewController: UITableViewDataSource, UITableViewDelegate {
+extension QuestViewController: UITableViewDataSource, UITableViewDelegate {
     private func getSectionHeaderView(title: String, bottomPadding: CGFloat = 10) -> UIView {
         let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
         let headerView = UIView()
@@ -93,8 +93,8 @@ extension SoulQuestViewController: UITableViewDataSource, UITableViewDelegate {
         return UITableViewCell()
     }
 }
-extension SoulQuestViewController: SoulQuestViewPresenterDelegate {
-    func didUpdate(viewModel: SoulQuestViewModel) {
+extension QuestViewController: QuestViewPresenterDelegate {
+    func didUpdate(viewModel: QuestViewModel) {
         DispatchQueue.main.async { [weak self] in
             guard let weakSelf = self else { return }
             weakSelf.showLoading = viewModel.isLoading
@@ -112,7 +112,7 @@ extension SoulQuestViewController: SoulQuestViewPresenterDelegate {
         }
     }
 }
-extension SoulQuestViewController: UIGestureRecognizerDelegate {
+extension QuestViewController: UIGestureRecognizerDelegate {
     func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
     }

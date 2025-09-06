@@ -5,10 +5,10 @@
 
 // Soulverse Tab Names
 "inner_cosmo" = "Inner Cosmo";
-"soul_insight" = "Soul Insight";
+"insight" = "Insight";
 "canvas" = "Canvas";
 "tools" = "Tools";
-"soul_quest" = "Soul Quest";
+"quest" = "Quest";
 "account" = "Account";
 "guest" = "Guest";
 "notification" = "Notification";
