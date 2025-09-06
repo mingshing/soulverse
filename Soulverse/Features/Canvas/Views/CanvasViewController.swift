@@ -13,6 +13,11 @@ class CanvasViewController: UIViewController {
     }
     
     // MARK: - UI Elements
+    private lazy var navigationView: SoulverseNavigationView = {
+        let view = SoulverseNavigationView(title: NSLocalizedString("canvas", comment: ""))
+        return view
+    }()
+    
     private var canvasView: PKCanvasView!
     private var toolbarStackView: UIStackView!
     
@@ -51,6 +56,9 @@ class CanvasViewController: UIViewController {
     private func setupUI() {
         view.backgroundColor = .white
         
+        // Add navigation view
+        view.addSubview(navigationView)
+        
         // 創建畫布
         canvasView = PKCanvasView()
         canvasView.isRulerActive = false
@@ -68,13 +76,19 @@ class CanvasViewController: UIViewController {
     }
     
     private func setupConstraints() {
+        navigationView.snp.makeConstraints { make in
+            make.top.equalTo(view.safeAreaLayoutGuide)
+            make.left.right.equalToSuperview()
+        }
+        
         toolbarStackView.snp.makeConstraints { make in
             make.height.equalTo(50)
             make.leading.trailing.equalToSuperview()
             make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).inset(16)
         }
+        
         canvasView.snp.makeConstraints { make in
-            make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
+            make.top.equalTo(navigationView.snp.bottom)
             make.leading.trailing.equalToSuperview()
             make.bottom.equalTo(toolbarStackView.snp.top).offset(16)
         }

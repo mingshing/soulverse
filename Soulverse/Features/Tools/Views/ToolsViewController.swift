@@ -5,6 +5,12 @@
 import UIKit
 
 class ToolsViewController: ViewController {
+    
+    private lazy var navigationView: SoulverseNavigationView = {
+        let view = SoulverseNavigationView(title: NSLocalizedString("tools", comment: ""))
+        return view
+    }()
+    
     private lazy var tableView: UITableView = { [weak self] in
         let table = UITableView(frame: .zero, style: .grouped)
         table.backgroundColor = .clear
@@ -19,13 +25,12 @@ class ToolsViewController: ViewController {
     private let presenter = ToolsViewPresenter()
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = NSLocalizedString("tools", comment: "")
         setupView()
         setupPresenter()
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.setNavigationBarHidden(false, animated: true)
+        navigationController?.setNavigationBarHidden(true, animated: true)
         if #available(iOS 18.0, *) {
             self.tabBarController?.setTabBarHidden(false, animated: false)
         }
@@ -39,11 +44,22 @@ class ToolsViewController: ViewController {
         }
     }
     func setupView() {
-        navigationController?.navigationBar.prefersLargeTitles = true
+        // Hide default navigation bar
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        
+        view.addSubview(navigationView)
         view.addSubview(tableView)
-        tableView.snp.makeConstraints { make in
-            make.left.right.top.bottom.equalToSuperview()
+        
+        navigationView.snp.makeConstraints { make in
+            make.top.equalTo(view.safeAreaLayoutGuide)
+            make.left.right.equalToSuperview()
         }
+        
+        tableView.snp.makeConstraints { make in
+            make.top.equalTo(navigationView.snp.bottom)
+            make.left.right.bottom.equalToSuperview()
+        }
+        
         self.extendedLayoutIncludesOpaqueBars = true
         self.edgesForExtendedLayout = .top
     }

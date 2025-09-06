@@ -9,6 +9,11 @@ class InnerCosmoViewController: ViewController {
 
 // MARK: View Related
     
+    private lazy var navigationView: SoulverseNavigationView = {
+        let view = SoulverseNavigationView(title: NSLocalizedString("inner_cosmo", comment: ""))
+        return view
+    }()
+    
     private lazy var tableView: UITableView = { [weak self] in
         let table = UITableView(frame: .zero, style: .grouped)
         table.backgroundColor = .clear
@@ -28,8 +33,6 @@ class InnerCosmoViewController: ViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = NSLocalizedString("inner_cosmo", comment: "")
-        
         setupView()
         setupPresenter()
     }
@@ -42,10 +45,22 @@ class InnerCosmoViewController: ViewController {
     }
     
     func setupView() {
+        // Hide default navigation bar
+        navigationController?.setNavigationBarHidden(true, animated: false)
+        
+        view.addSubview(navigationView)
         view.addSubview(tableView)
-        tableView.snp.makeConstraints { make in
-            make.left.right.top.bottom.equalToSuperview()
+        
+        navigationView.snp.makeConstraints { make in
+            make.top.equalTo(view.safeAreaLayoutGuide)
+            make.left.right.equalToSuperview()
         }
+        
+        tableView.snp.makeConstraints { make in
+            make.top.equalTo(navigationView.snp.bottom)
+            make.left.right.bottom.equalToSuperview()
+        }
+        
         self.extendedLayoutIncludesOpaqueBars = true
         self.edgesForExtendedLayout = .top
     }
